@@ -1,0 +1,26 @@
+{
+	"name": "pycharm-kr-theme",
+	"displayName": "PyCharm KR Theme",
+	"description": "PyCharm KR Theme",
+	"publisher": "kenethriera",
+	"version": "0.0.1",
+	"icon": "images/archlinux_logo_icon_32x32.ico",
+	"engines": {
+		"vscode": "^1.60.0"
+	},
+	"categories": ["Themes"],
+	"keywords": ["vscode", "theme", "pycharm"],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kenethrrizzo/pycharm-kr-theme"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "PyCharm Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/pycharm-color_theme.json"
+			}
+		]
+	}
+}
