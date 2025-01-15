@@ -1,10 +1,10 @@
 {
-	"name": "pycharm-kr-theme",
-	"displayName": "PyCharm KR Theme",
-	"description": "PyCharm KR Theme",
+	"name": "jb-pycharm-theme",
+	"displayName": "JB PyCharm Theme",
+	"description": "JB PyCharm Theme",
 	"publisher": "kenethriera",
-	"version": "0.0.3",
-	"icon": "images/archlinux_logo_icon_32x32.ico",
+	"version": "0.0.4",
+	"icon": "images/PyCharm_icon.png",
 	"engines": {
 		"vscode": "^1.60.0"
 	},
