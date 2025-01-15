@@ -64,7 +64,9 @@
 				"meta.function-call.generic.python",
 				"meta.jsx.children.tsx",
 				"meta.property-name.css",
-				"variable.other"
+				"variable.other",
+				"keyword.operator",
+				"keyword.operator.logical.python"
 			],
 			"settings": {
 				"foreground": "#bcbec4"
@@ -103,8 +105,6 @@
 				"entity.other.attribute-name.class.css",
 				"entity.other.attribute-name.id.css",
 				"entity.other.attribute-name.pseudo-class.css",
-				"keyword.operator",
-				"keyword.operator.logical.python",
 				"meta.attribute.rust",
 				"punctuation.definition.entity.css",
 				"storage.modifier.async.tsx",

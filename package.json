@@ -3,7 +3,7 @@
 	"displayName": "PyCharm KR Theme",
 	"description": "PyCharm KR Theme",
 	"publisher": "kenethriera",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"icon": "images/archlinux_logo_icon_32x32.ico",
 	"engines": {
 		"vscode": "^1.60.0"
