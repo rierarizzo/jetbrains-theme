@@ -64,9 +64,7 @@
 				"meta.function-call.generic.python",
 				"meta.jsx.children.tsx",
 				"meta.property-name.css",
-				"variable.other",
-				"keyword.operator",
-				"keyword.operator.logical.python"
+				"variable.other"
 			],
 			"settings": {
 				"foreground": "#bcbec4"
@@ -149,7 +147,9 @@
 		{
 			"scope": [
 				"keyword",
-				"storage.modifier.rust"
+				"storage.modifier.rust",
+				"keyword.operator",
+				"keyword.operator.logical.python"
 			],
 			"settings": {
 				"foreground": "#cf8e6d"
