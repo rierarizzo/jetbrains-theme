@@ -197,6 +197,12 @@
 			}
 		},
 		{
+			"scope": "string.quoted.docstring.multi.python",
+			"settings": {
+				"foreground": "#5d7e68"
+			}
+		},
+		{
 			"settings": {
 				"activeGuide": "#CACED6",
 				"background": "#1e1f22",
