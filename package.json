@@ -3,7 +3,7 @@
 	"displayName": "JB PyCharm Theme",
 	"description": "JB PyCharm Theme",
 	"publisher": "kenethriera",
-	"version": "0.0.7",
+	"version": "0.0.8",
 	"icon": "images/PyCharm_icon.png",
 	"engines": {
 		"vscode": "^1.60.0"
@@ -12,7 +12,7 @@
 	"keywords": ["vscode", "theme", "pycharm"],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/kenethrrizzo/pycharm-kr-theme"
+		"url": "https://github.com/rierarizzo/pycharm-kr-theme"
 	},
 	"contributes": {
 		"themes": [
