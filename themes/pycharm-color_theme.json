@@ -67,7 +67,9 @@
 				"variable.other",
 				"keyword.operator.arithmetic.python",
 				"keyword.operator.assignment.python",
-				"string.unquoted.plain.out.yaml"
+				"string.unquoted.plain.out.yaml",
+				"keyword.operator.unpacking.arguments.python",
+				"entity.name.type.class.python"
 			],
 			"settings": {
 				"foreground": "#bcbec4"
@@ -137,7 +139,8 @@
 				"storage.type",
 				"storage.type.sql",
 				"storage.type.string.go",
-				"support.function.builtin.python"
+				"support.function.builtin.python",
+				"support.type.python"
 			],
 			"settings": {
 				"foreground": "#8888c6"
@@ -154,7 +157,9 @@
 				"keyword",
 				"storage.modifier.rust",
 				"keyword.operator",
-				"keyword.operator.logical.python"
+				"keyword.operator.logical.python",
+				"storage.type.function.async.python",
+				"storage.type.class.python"
 			],
 			"settings": {
 				"foreground": "#cf8e6d"
@@ -203,6 +208,15 @@
 			"scope": "string.quoted.docstring.multi.python",
 			"settings": {
 				"foreground": "#5d7e68"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.function.decorator.python",
+				"entity.name.function.decorator.python"
+			],
+			"settings": {
+				"foreground": "#b3ae60"
 			}
 		},
 		{
