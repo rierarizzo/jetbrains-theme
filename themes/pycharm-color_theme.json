@@ -18,8 +18,6 @@
 		"editorWidget.background": "#2b2d30",
 		"input.background": "#1d1d1d",
 		"menu.background": "#2b2d30",
-		"notebook.cellBorderColor": "#2b2d30",
-        "notebook.cellEditorBackground": "#2b2d30",
 		"panel.background": "#2b2d30",
 		"scrollbar.shadow": "#131313",
 		"scrollbarSlider.background": "#474747a8",
@@ -30,7 +28,6 @@
 		"statusBar.background": "#2b2d30",
 		"statusBar.border": "#1e1f22",
 		"statusBar.noFolderBackground": "#2b2d30",
-		"statusBarItem.remoteBackground": "#474747",
 		"tab.activeBackground": "#1e1f22",
 		"tab.activeBorder": "#005a95",
 		"tab.inactiveBackground": "#1e1f22",
@@ -38,7 +35,10 @@
 		"terminal.border": "#1e1f22",
 		"titleBar.activeBackground": "#2b2d30",
 		"titleBar.inactiveBackground": "#2b2d30",
-		"welcomePage.background": "#2b2d30"
+		"welcomePage.background": "#2b2d30",
+		"notebook.cellBorderColor": "#2b2d30",
+		"notebook.cellEditorBackground": "#242529",
+		"statusBarItem.remoteBackground": "#005a95"
 	},
 	"tokenColors": [
 		{

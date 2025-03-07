@@ -3,7 +3,7 @@
 	"displayName": "JB PyCharm Theme",
 	"description": "JB PyCharm Theme",
 	"publisher": "kenethriera",
-	"version": "0.0.10",
+	"version": "0.0.11",
 	"icon": "images/PyCharm_icon.png",
 	"engines": {
 		"vscode": "^1.60.0"
