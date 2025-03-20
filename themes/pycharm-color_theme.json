@@ -1,75 +1,95 @@
 {
-	"name": "PyCharm Theme",
-	"type": "dark",
 	"colors": {
 		"activityBar.background": "#2b2d30",
 		"activityBar.border": "#2b2d30",
 		"banner.background": "#2b2d30",
 		"breadcrumb.background": "#2b2d30",
-		"editor.background": "#1e1f22",
+		"editor.background": "#212121",
 		"editor.lineHighlightBackground": "#2b2b2b",
+		"editorBracketPairGuide.activeBackground1": "#56585a",
+		"editorBracketPairGuide.activeBackground2": "#56585a",
+		"editorBracketPairGuide.activeBackground3": "#56585a",
+		"editorBracketPairGuide.activeBackground4": "#56585a",
+		"editorBracketPairGuide.activeBackground5": "#56585a",
+		"editorBracketPairGuide.activeBackground6": "#56585a",
+		"editorBracketPairGuide.background1": "#2b2d30",
+		"editorBracketPairGuide.background2": "#2b2d30",
+		"editorBracketPairGuide.background3": "#2b2d30",
+		"editorBracketPairGuide.background4": "#2b2d30",
+		"editorBracketPairGuide.background5": "#2b2d30",
+		"editorBracketPairGuide.background6": "#2b2d30",
 		"editorCursor.foreground": "#d3d3d3",
 		"editorGroup.emptyBackground": "#2b2d30",
-		"editorGroupHeader.tabsBackground": "#1e1f22",
-		"editorGutter.background": "#1e1f22",
+		"editorGroupHeader.tabsBackground": "#212121",
+		"editorGutter.background": "#212121",
 		"editorHoverWidget.background": "#2b2d30",
 		"editorSuggestWidget.background": "#2b2d30",
 		"editorSuggestWidget.selectedBackground": "#3b3b39",
 		"editorWidget.background": "#2b2d30",
 		"input.background": "#1d1d1d",
 		"menu.background": "#2b2d30",
+		"notebook.cellBorderColor": "#2b2d30",
+		"notebook.cellEditorBackground": "#242529",
 		"panel.background": "#2b2d30",
 		"scrollbar.shadow": "#131313",
 		"scrollbarSlider.background": "#474747a8",
 		"sideBar.background": "#2b2d30",
-		"sideBar.border": "#1e1f22",
+		"sideBar.border": "#212121",
 		"sideBarSectionHeader.background": "#2b2d30",
 		"sideBarSectionHeader.border": "#2b2d30",
 		"statusBar.background": "#2b2d30",
-		"statusBar.border": "#1e1f22",
+		"statusBar.border": "#212121",
 		"statusBar.noFolderBackground": "#2b2d30",
-		"tab.activeBackground": "#1e1f22",
+		"statusBarItem.remoteBackground": "#005a95",
+		"tab.activeBackground": "#212121",
 		"tab.activeBorder": "#005a95",
-		"tab.inactiveBackground": "#1e1f22",
+		"tab.inactiveBackground": "#212121",
 		"terminal.background": "#2b2d30",
-		"terminal.border": "#1e1f22",
+		"terminal.border": "#212121",
 		"titleBar.activeBackground": "#2b2d30",
 		"titleBar.inactiveBackground": "#2b2d30",
-		"welcomePage.background": "#2b2d30",
-		"notebook.cellBorderColor": "#2b2d30",
-		"notebook.cellEditorBackground": "#242529",
-		"statusBarItem.remoteBackground": "#005a95"
+		"welcomePage.background": "#2b2d30"
 	},
+	"name": "PyCharm Theme",
 	"tokenColors": [
 		{
 			"scope": [
 				"comment",
 				"comment.line.double-slash.go",
-				"punctuation.definition.comment.go"
+				"entity.name.type.lifetime.rust",
+				"punctuation.definition.comment.go",
+				"punctuation.definition.lifetime.rust"
 			],
 			"settings": {
-				"foreground": "#7a7e85"
-			}
-		},
-		{
-			"scope": "constant.character.format.placeholder.other.python",
-			"settings": {
-				"foreground": "#cf8e6d"
+				"foreground": "#686a4b"
 			}
 		},
 		{
 			"scope": [
 				"constant.language.java",
 				"constant.other.key.java",
+				"entity.name.type.class.python",
+				"entity.name.type.enum.rust",
+				"entity.name.type.rust",
+				"entity.name.type.struct.rust",
+				"entity.name.type.trait.rust",
+				"keyword.operator.arithmetic.python",
+				"keyword.operator.arrow.fat.rust",
+				"keyword.operator.arrow.skinny.rust",
+				"keyword.operator.assignment.equal.rust",
+				"keyword.operator.assignment.python",
+				"keyword.operator.assignment.rust",
+				"keyword.operator.borrow.and.rust",
+				"keyword.operator.dereference.rust",
+				"keyword.operator.key-value.rust",
+				"keyword.operator.namespace.rust",
+				"keyword.operator.unpacking.arguments.python",
 				"meta.function-call.generic.python",
 				"meta.jsx.children.tsx",
 				"meta.property-name.css",
-				"variable.other",
-				"keyword.operator.arithmetic.python",
-				"keyword.operator.assignment.python",
+				"punctuation.definition.table.toml",
 				"string.unquoted.plain.out.yaml",
-				"keyword.operator.unpacking.arguments.python",
-				"entity.name.type.class.python"
+				"variable.other"
 			],
 			"settings": {
 				"foreground": "#bcbec4"
@@ -87,43 +107,42 @@
 		},
 		{
 			"scope": [
-				"entity.name.function",
-				"entity.name.tag.html",
-				"keyword.control.at-rule.media.css",
-				"meta.tag.tsx",
-				"meta.tag.without-attributes.tsx",
-				"punctuation.definition.table.toml",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html",
-				"support.function.go",
-				"support.type.property-name.table.toml"
-			],
-			"settings": {
-				"foreground": "#55a6f1"
-			}
-		},
-		{
-			"scope": [
+				"constant.character.escape.backslash.rust",
+				"constant.character.escape.bit.rust",
+				"constant.character.escape.rust",
+				"constant.character.escape.unicode.rust",
+				"constant.character.escape.unicode.rust",
+				"constant.character.format.placeholder.other.python",
 				"entity.name.tag.css",
+				"entity.name.tag.yaml",
 				"entity.other.attribute-name.class.css",
 				"entity.other.attribute-name.id.css",
 				"entity.other.attribute-name.pseudo-class.css",
-				"meta.attribute.rust",
+				"keyword",
+				"keyword.control.rust",
+				"keyword.operator",
+				"keyword.operator.logical.python",
+				"meta.interpolation.rust",
 				"punctuation.definition.entity.css",
+				"punctuation.definition.interpolation.rust",
+				"source.yaml",
 				"storage.modifier.async.tsx",
 				"storage.modifier.java",
 				"storage.modifier.mut.rust",
+				"storage.modifier.rust",
 				"storage.modifier.sql",
+				"storage.type.class.python",
+				"storage.type.function.async.python",
+				"storage.type.function.python",
 				"storage.type.function.tsx",
 				"storage.type.module.rust",
 				"storage.type.rust",
 				"storage.type.tsx",
 				"support.type.property-name.json",
 				"support.type.property-name.json punctuation",
+				"support.type.property-name.table.toml",
 				"support.type.property-name.toml",
-				"variable.language.rust",
-				"source.yaml",
-				"entity.name.tag.yaml"
+				"variable.language.rust"
 			],
 			"settings": {
 				"foreground": "#cf8e6d"
@@ -140,6 +159,7 @@
 				"storage.type.sql",
 				"storage.type.string.go",
 				"support.function.builtin.python",
+				"support.type.exception.python",
 				"support.type.python"
 			],
 			"settings": {
@@ -150,19 +170,6 @@
 			"scope": "entity.name.type.mod.rust",
 			"settings": {
 				"foreground": "#D4BE98"
-			}
-		},
-		{
-			"scope": [
-				"keyword",
-				"storage.modifier.rust",
-				"keyword.operator",
-				"keyword.operator.logical.python",
-				"storage.type.function.async.python",
-				"storage.type.class.python"
-			],
-			"settings": {
-				"foreground": "#cf8e6d"
 			}
 		},
 		{
@@ -187,18 +194,6 @@
 			}
 		},
 		{
-			"scope": "storage.type.function.python",
-			"settings": {
-				"foreground": "#cf8e6d"
-			}
-		},
-		{
-			"scope": "support.type.exception.python",
-			"settings": {
-				"foreground": "#8888c6"
-			}
-		},
-		{
 			"scope": "variable.parameter.function-call.python",
 			"settings": {
 				"foreground": "#a94927"
@@ -213,16 +208,27 @@
 		{
 			"scope": [
 				"entity.name.function.decorator.python",
-				"entity.name.function.decorator.python"
+				"entity.name.function.decorator.python",
+				"meta.attribute.rust"
 			],
 			"settings": {
 				"foreground": "#b3ae60"
 			}
 		},
 		{
+			"scope": [
+				"entity.name.function.macro.rules.rust",
+				"keyword.operator.macro.dollar.rust",
+				"variable.other.metavariable.specifier.rust"
+			],
+			"settings": {
+				"foreground": "#ffc66d"
+			}
+		},
+		{
 			"settings": {
 				"activeGuide": "#CACED6",
-				"background": "#1e1f22",
+				"background": "#212121",
 				"caret": "#528BFF",
 				"findHighlight": "#FFE792",
 				"foreground": "#ABB2BF",
@@ -232,5 +238,6 @@
 				"selection": "#3E4451"
 			}
 		}
-	]
+	],
+	"type": "dark"
 }
