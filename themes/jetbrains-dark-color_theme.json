@@ -80,7 +80,7 @@
                 "punctuation.definition.lifetime.rust"
             ],
             "settings": {
-                "foreground": "#686a4b"
+                "foreground": "#7a7e85"
             }
         },
         {
@@ -108,7 +108,19 @@
                 "meta.property-name.css",
                 "punctuation.definition.table.toml",
                 "string.unquoted.plain.out.yaml",
-                "variable.other"
+                "variable.other",
+                "punctuation.separator.key-value.mapping.yaml",
+                "punctuation.definition.block.sequence.item.yaml",
+                "storage.type.java",
+                "entity.name.type.class.java",
+                "entity.name.type.enum.java",
+                "keyword.operator.assignment.java",
+                "keyword.operator.increment-decrement.java",
+                "keyword.operator.comparison.java",
+                "storage.type.generic.java",
+                "storage.type.function.arrow.java",
+                "storage.type.object.array.java",
+                "keyword.operator.arithmetic.java"
             ],
             "settings": {
                 "foreground": "#bcbec4"
@@ -161,7 +173,8 @@
                 "support.type.property-name.json punctuation",
                 "support.type.property-name.table.toml",
                 "support.type.property-name.toml",
-                "variable.language.rust"
+                "variable.language.rust",
+                "storage.type.primitive.java"
             ],
             "settings": {
                 "foreground": "#cf8e6d"
@@ -228,10 +241,21 @@
             "scope": [
                 "entity.name.function.decorator.python",
                 "entity.name.function.decorator.python",
-                "meta.attribute.rust"
+                "meta.attribute.rust",
+                "punctuation.definition.annotation.java",
+                "storage.type.annotation.java"
             ],
             "settings": {
                 "foreground": "#b3ae60"
+            }
+        },
+        {
+            "scope": [
+                "punctuation.definition.tag.xml",
+                "entity.name.tag.localname.xml"
+            ],
+            "settings": {
+                "foreground": "#d5b778"
             }
         },
         {

@@ -1,15 +1,21 @@
 {
-	"name": "jb-pycharm-theme",
-	"displayName": "JB PyCharm Theme",
-	"description": "JB PyCharm Theme",
+	"name": "jb-theme",
+	"displayName": "JetBrains Theme",
+	"description": "Un tema elegante para VSCode inspirado en el estilo JetBrains, diseñado para ofrecer una experiencia visual impecable y enfocada.",
 	"publisher": "kenethriera",
-	"version": "0.0.13",
-	"icon": "images/PyCharm_icon.png",
+	"version": "1.0.0",
+	"icon": "images/jetbrains.png",
 	"engines": {
 		"vscode": "^1.60.0"
 	},
-	"categories": ["Themes"],
-	"keywords": ["vscode", "theme", "pycharm"],
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"vscode",
+		"theme",
+		"pycharm"
+	],
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/rierarizzo/pycharm-kr-theme"
@@ -17,9 +23,9 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "PyCharm Theme",
+				"label": "JetBrains Dark Theme",
 				"uiTheme": "vs-dark",
-				"path": "./themes/pycharm-color_theme.json"
+				"path": "./themes/jetbrains-dark-color_theme.json"
 			}
 		]
 	}

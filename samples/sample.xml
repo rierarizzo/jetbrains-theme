@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Ejemplo de tema para VSCode -->
+<theme name="MiTema">
+    <!-- Definición de colores principales -->
+    <colors>
+        <color name="editor.background" value="#1e1e1e" />
+        <color name="editor.foreground" value="#d4d4d4" />
+    </colors>
+    <!-- Configuración de colores para tokens de sintaxis -->
+    <tokenColors>
+        <token type="keyword" foreground="#569cd6" fontStyle="bold" />
+        <token type="string" foreground="#ce9178" />
+        <token type="comment" foreground="#6a9955" fontStyle="italic" />
+    </tokenColors>
+    <!-- Configuración adicional usando CDATA para contenido que puede ser JSON o código -->
+    <settings>
+        <![CDATA[
+        {
+            "editor.tabSize": 4,
+            "editor.insertSpaces": true
+        }
+        ]]>
+    </settings>
+</theme>
