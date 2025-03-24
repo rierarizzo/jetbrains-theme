@@ -120,7 +120,9 @@
                 "storage.type.generic.java",
                 "storage.type.function.arrow.java",
                 "storage.type.object.array.java",
-                "keyword.operator.arithmetic.java"
+                "keyword.operator.arithmetic.java",
+                "variable.language.java",
+                "variable.language.wildcard.java"
             ],
             "settings": {
                 "foreground": "#bcbec4"
@@ -266,6 +268,14 @@
             ],
             "settings": {
                 "foreground": "#ffc66d"
+            }
+        },
+        {
+            "scope": [
+                "variable.other.definition.java"
+            ],
+            "settings": {
+                "foreground": "#c57cb9"
             }
         },
         {
