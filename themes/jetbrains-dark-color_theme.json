@@ -161,6 +161,8 @@
                 "punctuation.definition.interpolation.rust",
                 "source.yaml",
                 "storage.modifier.async.tsx",
+                "storage.modifier.extends.java",
+                "storage.modifier.implements.java",
                 "storage.modifier.java",
                 "storage.modifier.mut.rust",
                 "storage.modifier.rust",
