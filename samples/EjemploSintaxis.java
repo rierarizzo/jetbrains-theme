@@ -47,7 +47,7 @@ public class EjemploSintaxis {
         for (int i = 0; i < 5; i++) {
             System.out.println("Iteración: " + i);
         }
-
+        
         // Bucle while
         int contador = 0;
         while (contador < 3) {
