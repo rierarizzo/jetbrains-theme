@@ -150,7 +150,6 @@
                 "constant.character.escape.bit.rust",
                 "constant.character.escape.rust",
                 "constant.character.escape.unicode.rust",
-                "constant.character.escape.unicode.rust",
                 "constant.character.format.placeholder.other.python",
                 "entity.name.tag.css",
                 "entity.name.tag.yaml",
@@ -252,7 +251,6 @@
         },
         {
             "scope": [
-                "entity.name.function.decorator.python",
                 "entity.name.function.decorator.python",
                 "meta.attribute.rust",
                 "punctuation.definition.annotation-arguments.begin.bracket.round.java",
