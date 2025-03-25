@@ -29,7 +29,7 @@
         "input.background": "#1d1d1d",
         "menu.background": "#2b2d30",
         "notebook.cellBorderColor": "#2b2d30",
-        "notebook.cellEditorBackground": "#242529",
+        "notebook.cellEditorBackground": "#2b2d30",
         "panel.background": "#2b2d30",
         "scrollbar.shadow": "#131313",
         "scrollbarSlider.background": "#474747a8",
