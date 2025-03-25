@@ -14,11 +14,19 @@
 	"keywords": [
 		"vscode",
 		"theme",
-		"pycharm"
+		"dark theme",
+		"JetBrains",
+		"programming",
+		"editor",
+		"color scheme",
+		"intellij",
+		"idea",
+		"pycharm",
+		"rustrover"
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/rierarizzo/pycharm-kr-theme"
+		"url": "https://github.com/rierarizzo/jetbrains-theme"
 	},
 	"contributes": {
 		"themes": [
