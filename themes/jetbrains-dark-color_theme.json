@@ -185,7 +185,9 @@
                 "support.type.property-name.json punctuation",
                 "support.type.property-name.table.toml",
                 "support.type.property-name.toml",
-                "variable.language.rust"
+                "variable.language.rust",
+                "variable.language.special.self.python",
+                "variable.language.this.java"
             ],
             "settings": {
                 "foreground": "#cf8e6d"
