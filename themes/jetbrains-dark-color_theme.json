@@ -116,9 +116,13 @@
                 "meta.property-name.css",
                 "punctuation.definition.block.sequence.item.yaml",
                 "punctuation.definition.table.toml",
+                "punctuation.section.block.begin.bracket.curly.java",
+                "punctuation.section.block.end.bracket.curly.java",
+                "punctuation.separator.delimiter.java",
                 "punctuation.separator.key-value.mapping.yaml",
                 "storage.type.function.arrow.java",
                 "storage.type.generic.java",
+                "storage.type.generic.wildcard.java",
                 "storage.type.java",
                 "storage.type.object.array.java",
                 "string.unquoted.plain.out.yaml",
@@ -252,9 +256,6 @@
                 "punctuation.definition.annotation-arguments.begin.bracket.round.java",
                 "punctuation.definition.annotation-arguments.end.bracket.round.java",
                 "punctuation.definition.annotation.java",
-                "punctuation.section.block.begin.bracket.curly.java",
-                "punctuation.section.block.end.bracket.curly.java",
-                "punctuation.separator.delimiter.java",
                 "storage.type.annotation.java"
             ],
             "settings": {
