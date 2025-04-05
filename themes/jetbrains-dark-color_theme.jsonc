@@ -80,7 +80,7 @@
                 "punctuation.definition.lifetime.rust"
             ],
             "settings": {
-                "foreground": "#7a7e85"
+                "foreground": "#7a7e85" // Gray
             }
         },
         {
@@ -89,12 +89,14 @@
                 "constant.other.key.java",
                 "entity.name.type.class.java",
                 "entity.name.type.class.python",
+                "entity.name.type.declaration.rust",
                 "entity.name.type.enum.java",
                 "entity.name.type.enum.rust",
                 "entity.name.type.rust",
                 "entity.name.type.struct.rust",
                 "entity.name.type.trait.rust",
                 "keyword.control.ternary.java",
+                "keyword.operator.access.dot.rust",
                 "keyword.operator.arithmetic.java",
                 "keyword.operator.arithmetic.python",
                 "keyword.operator.arrow.fat.rust",
@@ -105,10 +107,12 @@
                 "keyword.operator.assignment.rust",
                 "keyword.operator.borrow.and.rust",
                 "keyword.operator.comparison.java",
+                "keyword.operator.comparison.rust",
                 "keyword.operator.dereference.rust",
                 "keyword.operator.increment-decrement.java",
                 "keyword.operator.key-value.rust",
                 "keyword.operator.logical.java",
+                "keyword.operator.math.rust",
                 "keyword.operator.namespace.rust",
                 "keyword.operator.unpacking.arguments.python",
                 "meta.function-call.generic.python",
@@ -131,17 +135,16 @@
                 "variable.other"
             ],
             "settings": {
-                "foreground": "#bcbec4"
+                "foreground": "#bcbec4" // White
             }
         },
         {
             "scope": [
                 "constant.numeric",
-                "punctuation.definition.interpolation.rust",
                 "variable.language"
             ],
             "settings": {
-                "foreground": "#2aacb8"
+                "foreground": "#2aacb8" // Light blue
             }
         },
         {
@@ -185,11 +188,12 @@
                 "support.type.property-name.table.toml",
                 "support.type.property-name.toml",
                 "variable.language.rust",
+                "variable.language.self.rust",
                 "variable.language.special.self.python",
                 "variable.language.this.java"
             ],
             "settings": {
-                "foreground": "#cf8e6d"
+                "foreground": "#cf8e6d" // Orange
             }
         },
         {
@@ -207,24 +211,15 @@
                 "support.type.python"
             ],
             "settings": {
-                "foreground": "#8888c6"
+                "foreground": "#8888c6" // Purple
             }
         },
-        {
+        /* {
             "scope": "entity.name.type.mod.rust",
             "settings": {
                 "foreground": "#D4BE98"
             }
-        },
-        {
-            "scope": [
-                "keyword.control.go",
-                "source.rust keyword.control"
-            ],
-            "settings": {
-                "foreground": "#bd7f7f"
-            }
-        },
+        }, */
         {
             "scope": [
                 "meta.property-list.css",
@@ -234,19 +229,19 @@
                 "string"
             ],
             "settings": {
-                "foreground": "#6aab73"
+                "foreground": "#6aab73" // Green
             }
         },
         {
             "scope": "variable.parameter.function-call.python",
             "settings": {
-                "foreground": "#a94927"
+                "foreground": "#a94927" // Dark orange
             }
         },
         {
             "scope": "string.quoted.docstring.multi.python",
             "settings": {
-                "foreground": "#5d7e68"
+                "foreground": "#5d7e68" // Dark green
             }
         },
         {
@@ -259,7 +254,7 @@
                 "storage.type.annotation.java"
             ],
             "settings": {
-                "foreground": "#b3ae60"
+                "foreground": "#b3ae60" // Annotations yellow
             }
         },
         {
@@ -268,7 +263,7 @@
                 "punctuation.definition.tag.xml"
             ],
             "settings": {
-                "foreground": "#d5b778"
+                "foreground": "#d5b778" // Tags yellow
             }
         },
         {
@@ -278,7 +273,7 @@
                 "variable.other.metavariable.specifier.rust"
             ],
             "settings": {
-                "foreground": "#ffc66d"
+                "foreground": "#ffc66d" // Macros yellow
             }
         },
         {
@@ -287,7 +282,7 @@
                 "variable.other.object.property.java"
             ],
             "settings": {
-                "foreground": "#c57cb9"
+                "foreground": "#c57cb9" // Pink
             }
         },
         {
