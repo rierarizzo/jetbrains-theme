@@ -80,7 +80,7 @@
                 "punctuation.definition.lifetime.rust"
             ],
             "settings": {
-                "foreground": "#7a7e85" // Gray
+                "foreground": "#7a7e85"
             }
         },
         {
@@ -135,7 +135,7 @@
                 "variable.other"
             ],
             "settings": {
-                "foreground": "#bcbec4" // White
+                "foreground": "#bcbec4"
             }
         },
         {
@@ -144,7 +144,7 @@
                 "variable.language"
             ],
             "settings": {
-                "foreground": "#2aacb8" // Light blue
+                "foreground": "#2aacb8"
             }
         },
         {
@@ -193,7 +193,7 @@
                 "variable.language.this.java"
             ],
             "settings": {
-                "foreground": "#cf8e6d" // Orange
+                "foreground": "#cf8e6d"
             }
         },
         {
@@ -211,15 +211,9 @@
                 "support.type.python"
             ],
             "settings": {
-                "foreground": "#8888c6" // Purple
+                "foreground": "#8888c6"
             }
         },
-        /* {
-            "scope": "entity.name.type.mod.rust",
-            "settings": {
-                "foreground": "#D4BE98"
-            }
-        }, */
         {
             "scope": [
                 "meta.property-list.css",
@@ -229,19 +223,19 @@
                 "string"
             ],
             "settings": {
-                "foreground": "#6aab73" // Green
+                "foreground": "#6aab73"
             }
         },
         {
             "scope": "variable.parameter.function-call.python",
             "settings": {
-                "foreground": "#a94927" // Dark orange
+                "foreground": "#a94927"
             }
         },
         {
             "scope": "string.quoted.docstring.multi.python",
             "settings": {
-                "foreground": "#5d7e68" // Dark green
+                "foreground": "#5d7e68"
             }
         },
         {
@@ -254,7 +248,7 @@
                 "storage.type.annotation.java"
             ],
             "settings": {
-                "foreground": "#b3ae60" // Annotations yellow
+                "foreground": "#b3ae60"
             }
         },
         {
@@ -263,7 +257,7 @@
                 "punctuation.definition.tag.xml"
             ],
             "settings": {
-                "foreground": "#d5b778" // Tags yellow
+                "foreground": "#d5b778"
             }
         },
         {
@@ -273,7 +267,7 @@
                 "variable.other.metavariable.specifier.rust"
             ],
             "settings": {
-                "foreground": "#ffc66d" // Macros yellow
+                "foreground": "#ffc66d"
             }
         },
         {
@@ -282,7 +276,7 @@
                 "variable.other.object.property.java"
             ],
             "settings": {
-                "foreground": "#c57cb9" // Pink
+                "foreground": "#c57cb9"
             }
         },
         {

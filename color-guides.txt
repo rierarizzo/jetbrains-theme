@@ -1,0 +1,12 @@
+"#7a7e85" // Gray
+"#bcbec4" // White
+"#2aacb8" // Light blue
+"#cf8e6d" // Orange
+"#8888c6" // Purple
+"#6aab73" // Green
+"#a94927" // Dark orange
+"#5d7e68" // Dark green
+"#b3ae60" // Annotations yellow
+"#d5b778" // Tags yellow
+"#ffc66d" // Macros yellow
+"#c57cb9" // Pink
