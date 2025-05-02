@@ -95,6 +95,7 @@
                 "entity.name.type.rust",
                 "entity.name.type.struct.rust",
                 "entity.name.type.trait.rust",
+                "entity.name.type.ts",
                 "entity.other.attribute-name.html",
                 "entity.other.attribute-name.tsx",
                 "keyword.control.ternary.java",
@@ -105,6 +106,7 @@
                 "keyword.operator.arrow.skinny.rust",
                 "keyword.operator.assignment.equal.rust",
                 "keyword.operator.assignment.java",
+                "keyword.operator.assignment.js",
                 "keyword.operator.assignment.python",
                 "keyword.operator.assignment.rust",
                 "keyword.operator.assignment.ts",
@@ -125,6 +127,7 @@
                 "keyword.operator.relational.ts",
                 "keyword.operator.spread.js",
                 "keyword.operator.ternary.ts",
+                "keyword.operator.ternary.tsx",
                 "keyword.operator.type.annotation.ts",
                 "keyword.operator.unpacking.arguments.python",
                 "meta.function-call.generic.python",
@@ -134,8 +137,12 @@
                 "punctuation.definition.table.toml",
                 "punctuation.section.block.begin.bracket.curly.java",
                 "punctuation.section.block.end.bracket.curly.java",
+                "punctuation.section.embedded.begin.tsx",
+                "punctuation.section.embedded.end.tsx",
+                "punctuation.separator.comma.tsx",
                 "punctuation.separator.delimiter.java",
                 "punctuation.separator.key-value.mapping.yaml",
+                "punctuation.separator.key-value.tsx",
                 "storage.type.function.arrow.java",
                 "storage.type.function.arrow.ts",
                 "storage.type.generic.java",
@@ -145,7 +152,9 @@
                 "string.unquoted.plain.out.yaml",
                 "variable.language.java",
                 "variable.language.wildcard.java",
-                "variable.other"
+                "variable.other",
+                "variable.other.object.js",
+                "variable.other.object.ts"
             ],
             "settings": {
                 "foreground": "#bcbec4"
@@ -167,6 +176,8 @@
                 "constant.character.escape.rust",
                 "constant.character.escape.unicode.rust",
                 "constant.character.format.placeholder.other.python",
+                "constant.language.boolean.false.js",
+                "constant.language.boolean.true.js",
                 "entity.name.tag.css",
                 "entity.name.tag.yaml",
                 "entity.other.attribute-name.class.css",
@@ -234,7 +245,6 @@
         },
         {
             "scope": [
-                "keyword.operator.assignment.tsx",
                 "meta.property-list.css",
                 "meta.property-value.css",
                 "punctuation.definition.string",
@@ -298,8 +308,11 @@
         },
         {
             "scope": [
+                "meta.object-literal.key.js",
                 "variable.other.definition.java",
-                "variable.other.object.property.java"
+                "variable.other.object.property.java",
+                "variable.other.property.js",
+                "variable.other.property.ts"
             ],
             "settings": {
                 "foreground": "#c57cb9"
@@ -307,7 +320,10 @@
         },
         {
             "scope": [
-                "entity.name.function.python"
+                "entity.name.function.js",
+                "entity.name.function.python",
+                "entity.name.function.ts",
+                "entity.name.function.tsx"
             ],
             "settings": {
                 "foreground": "#55a6f2"
