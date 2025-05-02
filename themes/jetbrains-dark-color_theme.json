@@ -139,6 +139,7 @@
                 "meta.jsx.children.tsx",
                 "meta.property-name.css",
                 "punctuation.definition.block.sequence.item.yaml",
+                "punctuation.definition.block.tsx",
                 "punctuation.definition.table.toml",
                 "punctuation.section.block.begin.bracket.curly.java",
                 "punctuation.section.block.end.bracket.curly.java",
@@ -317,6 +318,7 @@
         {
             "scope": [
                 "meta.object-literal.key.js",
+                "meta.object-literal.key.tsx",
                 "variable.other.definition.java",
                 "variable.other.object.property.java",
                 "variable.other.property.js",
