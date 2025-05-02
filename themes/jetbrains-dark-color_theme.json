@@ -200,7 +200,6 @@
                 "entity.name.tag.css",
                 "entity.name.tag.yaml",
                 "entity.other.attribute-name.id.css",
-                "entity.other.attribute-name.pseudo-class.css",
                 "keyword",
                 "keyword.control.rust",
                 "keyword.operator",
