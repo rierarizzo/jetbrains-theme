@@ -119,6 +119,7 @@
                 "keyword.operator.namespace.rust",
                 "keyword.operator.optional.ts",
                 "keyword.operator.relational.ts",
+                "keyword.operator.spread.js",
                 "keyword.operator.type.annotation.ts",
                 "keyword.operator.unpacking.arguments.python",
                 "meta.function-call.generic.python",
