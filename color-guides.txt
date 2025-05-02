@@ -10,3 +10,5 @@
 "#d5b778" // Tags yellow
 "#ffc66d" // Macros yellow
 "#c57cb9" // Pink
+"#55a6f2" // blue (function names)
+"#2fbaa3" // Phosphorescent green (TSX components)

@@ -95,6 +95,8 @@
                 "entity.name.type.rust",
                 "entity.name.type.struct.rust",
                 "entity.name.type.trait.rust",
+                "entity.other.attribute-name.html",
+                "entity.other.attribute-name.tsx",
                 "keyword.control.ternary.java",
                 "keyword.operator.access.dot.rust",
                 "keyword.operator.arithmetic.java",
@@ -106,8 +108,10 @@
                 "keyword.operator.assignment.python",
                 "keyword.operator.assignment.rust",
                 "keyword.operator.assignment.ts",
+                "keyword.operator.assignment.tsx",
                 "keyword.operator.borrow.and.rust",
                 "keyword.operator.comparison.java",
+                "keyword.operator.comparison.python",
                 "keyword.operator.comparison.rust",
                 "keyword.operator.comparison.ts",
                 "keyword.operator.dereference.rust",
@@ -120,6 +124,7 @@
                 "keyword.operator.optional.ts",
                 "keyword.operator.relational.ts",
                 "keyword.operator.spread.js",
+                "keyword.operator.ternary.ts",
                 "keyword.operator.type.annotation.ts",
                 "keyword.operator.unpacking.arguments.python",
                 "meta.function-call.generic.python",
@@ -229,9 +234,11 @@
         },
         {
             "scope": [
+                "keyword.operator.assignment.tsx",
                 "meta.property-list.css",
                 "meta.property-value.css",
                 "punctuation.definition.string",
+                "punctuation.separator.key-value.html",
                 "storage.type.string.python",
                 "string"
             ],
@@ -266,7 +273,13 @@
         },
         {
             "scope": [
+                "entity.name.tag.html",
                 "entity.name.tag.localname.xml",
+                "entity.name.tag.tsx",
+                "punctuation.definition.tag.begin.html",
+                "punctuation.definition.tag.begin.tsx",
+                "punctuation.definition.tag.end.html",
+                "punctuation.definition.tag.end.tsx",
                 "punctuation.definition.tag.xml"
             ],
             "settings": {
@@ -290,6 +303,22 @@
             ],
             "settings": {
                 "foreground": "#c57cb9"
+            }
+        },
+        {
+            "scope": [
+                "entity.name.function.python"
+            ],
+            "settings": {
+                "foreground": "#55a6f2"
+            }
+        },
+        {
+            "scope": [
+                "support.class.component.tsx"
+            ],
+            "settings": {
+                "foreground": "#2fbaa3"
             }
         },
         {
