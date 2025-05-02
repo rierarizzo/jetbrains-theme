@@ -94,6 +94,7 @@
                 "entity.name.type.enum.java",
                 "entity.name.type.enum.rust",
                 "entity.name.type.interface.tsx",
+                "entity.name.type.module.tsx",
                 "entity.name.type.rust",
                 "entity.name.type.struct.rust",
                 "entity.name.type.trait.rust",
@@ -124,6 +125,7 @@
                 "keyword.operator.key-value.rust",
                 "keyword.operator.logical.java",
                 "keyword.operator.logical.ts",
+                "keyword.operator.logical.tsx",
                 "keyword.operator.math.rust",
                 "keyword.operator.namespace.rust",
                 "keyword.operator.optional.ts",
@@ -135,20 +137,30 @@
                 "keyword.operator.type.annotation.ts",
                 "keyword.operator.type.annotation.tsx",
                 "keyword.operator.unpacking.arguments.python",
+                "keyword.other.unit.percentage.css",
                 "meta.function-call.generic.python",
                 "meta.jsx.children.tsx",
                 "meta.property-name.css",
                 "punctuation.definition.block.sequence.item.yaml",
                 "punctuation.definition.block.tsx",
+                "punctuation.definition.entity.css",
                 "punctuation.definition.table.toml",
                 "punctuation.section.block.begin.bracket.curly.java",
                 "punctuation.section.block.end.bracket.curly.java",
                 "punctuation.section.embedded.begin.tsx",
                 "punctuation.section.embedded.end.tsx",
+                "punctuation.section.function.begin.bracket.round.css",
+                "punctuation.section.function.end.bracket.round.css",
+                "punctuation.section.property-list.begin.bracket.curly.css",
+                "punctuation.section.property-list.end.bracket.curly.css",
                 "punctuation.separator.comma.tsx",
                 "punctuation.separator.delimiter.java",
+                "punctuation.separator.key-value.css",
+                "punctuation.separator.key-value.js",
                 "punctuation.separator.key-value.mapping.yaml",
                 "punctuation.separator.key-value.tsx",
+                "punctuation.separator.list.comma.css",
+                "punctuation.terminator.rule.css",
                 "storage.type.function.arrow.java",
                 "storage.type.function.arrow.ts",
                 "storage.type.function.arrow.tsx",
@@ -187,7 +199,6 @@
                 "constant.language.boolean.true.js",
                 "entity.name.tag.css",
                 "entity.name.tag.yaml",
-                "entity.other.attribute-name.class.css",
                 "entity.other.attribute-name.id.css",
                 "entity.other.attribute-name.pseudo-class.css",
                 "keyword",
@@ -195,7 +206,6 @@
                 "keyword.operator",
                 "keyword.operator.logical.python",
                 "meta.interpolation.rust",
-                "punctuation.definition.entity.css",
                 "punctuation.definition.interpolation.rust",
                 "punctuation.definition.template-expression.begin.ts",
                 "punctuation.definition.template-expression.end.ts",
@@ -254,6 +264,11 @@
         },
         {
             "scope": [
+                "keyword.other.unit.ms.css",
+                "keyword.other.unit.px.css",
+                "keyword.other.unit.rem.css",
+                "keyword.other.unit.vh.css",
+                "keyword.other.unit.vw.css",
                 "meta.property-list.css",
                 "meta.property-value.css",
                 "punctuation.definition.string",
@@ -295,11 +310,15 @@
                 "entity.name.tag.html",
                 "entity.name.tag.localname.xml",
                 "entity.name.tag.tsx",
+                "entity.other.attribute-name.class.css",
+                "entity.other.attribute-name.pseudo-class.css",
                 "punctuation.definition.tag.begin.html",
                 "punctuation.definition.tag.begin.tsx",
                 "punctuation.definition.tag.end.html",
                 "punctuation.definition.tag.end.tsx",
-                "punctuation.definition.tag.xml"
+                "punctuation.definition.tag.xml",
+                "support.function.misc.css",
+                "support.function.url.css"
             ],
             "settings": {
                 "foreground": "#d5b778"
@@ -326,7 +345,7 @@
                 "variable.other.property.tsx"
             ],
             "settings": {
-                "foreground": "#c57cb9"
+                "foreground": "#c77dbb"
             }
         },
         {

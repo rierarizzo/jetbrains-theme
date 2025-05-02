@@ -9,6 +9,6 @@
 "#b3ae60" // Annotations yellow
 "#d5b778" // Tags yellow
 "#ffc66d" // Macros yellow
-"#c57cb9" // Pink
+"#c77dbb" // Pink
 "#55a6f2" // blue (function names)
 "#2fbaa3" // Phosphorescent green (TSX components)
