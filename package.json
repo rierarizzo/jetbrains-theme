@@ -22,12 +22,27 @@
 		"intellij",
 		"idea",
 		"pycharm",
-		"rustrover"
+		"rustrover",
+		"visual studio code",
+		"syntax highlighting",
+		"developer theme",
+		"ide",
+		"webstorm",
+		"phpstorm"
 	],
+	"scripts": {
+		"package": "vsce package",
+		"publish": "vsce publish"
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/rierarizzo/jetbrains-theme"
 	},
+	"homepage": "https://github.com/rierarizzo/jetbrains-theme#readme",
+	"bugs": {
+		"url": "https://github.com/rierarizzo/jetbrains-theme/issues"
+	},
+	"license": "CC0-1.0",
 	"contributes": {
 		"themes": [
 			{

@@ -69,7 +69,7 @@
         "titleBar.inactiveBackground": "#2b2d30",
         "welcomePage.background": "#2b2d30"
     },
-    "name": "PyCharm Theme",
+    "name": "JetBrains Dark Theme",
     "tokenColors": [
         {
             "scope": [
