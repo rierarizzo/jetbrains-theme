@@ -1,9 +1,9 @@
 {
 	"name": "jb-theme",
 	"displayName": "JetBrains Theme",
-	"description": "Un tema elegante para VSCode inspirado en el estilo JetBrains, diseñado para ofrecer una experiencia visual impecable y enfocada.",
+	"description": "Un tema para VSCode inspirado en el estilo JetBrains.",
 	"publisher": "kenethriera",
-	"version": "1.0.20",
+	"version": "1.0.21",
 	"icon": "images/jetbrains.png",
 	"engines": {
 		"vscode": "^1.60.0"
