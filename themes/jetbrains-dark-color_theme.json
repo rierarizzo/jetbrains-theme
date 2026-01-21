@@ -5,7 +5,7 @@
         "banner.background": "#2b2d30",
         "breadcrumb.background": "#2b2d30",
         "editor.background": "#1e1f22",
-        "editor.lineHighlightBackground": "#2b2b2b",
+        "editor.lineHighlightBackground": "#26282E",
         "editorBracketPairGuide.activeBackground1": "#56585a",
         "editorBracketPairGuide.activeBackground2": "#56585a",
         "editorBracketPairGuide.activeBackground3": "#56585a",
@@ -18,14 +18,18 @@
         "editorBracketPairGuide.background4": "#2b2d30",
         "editorBracketPairGuide.background5": "#2b2d30",
         "editorBracketPairGuide.background6": "#2b2d30",
-        "editorCursor.foreground": "#d3d3d3",
+        "editorCursor.foreground": "#CED0D6",
         "editorGroup.emptyBackground": "#2b2d30",
         "editorGroupHeader.tabsBackground": "#1e1f22",
         "editorGutter.background": "#1e1f22",
         "editorHoverWidget.background": "#2b2d30",
-        "editorRuler.foreground": "#2b2d30",
+        "editorIndentGuide.activeBackground": "#666870",
+        "editorIndentGuide.background": "#313438",
+        "editorLineNumber.foreground": "#4B5059",
+        "editorRuler.foreground": "#393B40",
         "editorSuggestWidget.background": "#2b2d30",
         "editorSuggestWidget.selectedBackground": "#3b3b39",
+        "editorWhitespace.foreground": "#6F737A",
         "editorWidget.background": "#2b2d30",
         "input.background": "#1d1d1d",
         "menu.background": "#2b2d30",
@@ -75,7 +79,11 @@
         {
             "scope": [
                 "comment",
+                "comment.block.go",
                 "comment.line.double-slash.go",
+                "comment.line.double-slash.groovy",
+                "comment.line.double-slash.jenkinsfile",
+                "comment.line.number-sign.shell",
                 "entity.name.type.lifetime.rust",
                 "punctuation.definition.comment.go",
                 "punctuation.definition.lifetime.rust"
@@ -87,7 +95,10 @@
         {
             "scope": [
                 "constant.language.java",
+                "storage.modifier.import.java",
+                "storage.modifier.package.java",
                 "constant.other.key.java",
+                "entity.name.type",
                 "entity.name.type.alias.tsx",
                 "entity.name.type.class.java",
                 "entity.name.type.class.python",
@@ -105,11 +116,14 @@
                 "entity.other.attribute-name.tsx",
                 "keyword.control.ternary.java",
                 "keyword.operator.access.dot.rust",
+                "keyword.operator.address.go",
+                "keyword.operator.arithmetic.go",
                 "keyword.operator.arithmetic.java",
                 "keyword.operator.arithmetic.python",
                 "keyword.operator.arrow.fat.rust",
                 "keyword.operator.arrow.skinny.rust",
                 "keyword.operator.assignment.equal.rust",
+                "keyword.operator.assignment.go",
                 "keyword.operator.assignment.java",
                 "keyword.operator.assignment.js",
                 "keyword.operator.assignment.python",
@@ -117,13 +131,18 @@
                 "keyword.operator.assignment.ts",
                 "keyword.operator.assignment.tsx",
                 "keyword.operator.borrow.and.rust",
+                "keyword.operator.comparison.go",
                 "keyword.operator.comparison.java",
                 "keyword.operator.comparison.python",
                 "keyword.operator.comparison.rust",
                 "keyword.operator.comparison.ts",
+                "keyword.operator.decrement.go",
                 "keyword.operator.dereference.rust",
+                "keyword.operator.go",
                 "keyword.operator.increment-decrement.java",
+                "keyword.operator.increment.go",
                 "keyword.operator.key-value.rust",
+                "keyword.operator.logical.go",
                 "keyword.operator.logical.java",
                 "keyword.operator.logical.ts",
                 "keyword.operator.logical.tsx",
@@ -197,12 +216,18 @@
                 "constant.character.escape.unicode.rust",
                 "constant.character.format.placeholder.other.python",
                 "constant.language.boolean.false.js",
+                "constant.language.boolean.go",
                 "constant.language.boolean.true.js",
+                "constant.language.go",
                 "entity.name.tag.css",
                 "entity.name.tag.yaml",
                 "entity.other.attribute-name.id.css",
                 "keyword",
+                "keyword.control.go",
+                "keyword.control.groovy",
+                "keyword.control.jenkinsfile",
                 "keyword.control.rust",
+                "keyword.control.shell",
                 "keyword.operator",
                 "keyword.operator.logical.python",
                 "meta.interpolation.rust",
@@ -210,6 +235,7 @@
                 "punctuation.definition.template-expression.begin.ts",
                 "punctuation.definition.template-expression.end.ts",
                 "source.yaml",
+                "storage.modifier",
                 "storage.modifier.async.ts",
                 "storage.modifier.async.tsx",
                 "storage.modifier.extends.java",
@@ -218,12 +244,15 @@
                 "storage.modifier.mut.rust",
                 "storage.modifier.rust",
                 "storage.modifier.sql",
+                "storage.type",
                 "storage.type.class.python",
                 "storage.type.function.async.python",
                 "storage.type.function.python",
                 "storage.type.function.ts",
                 "storage.type.function.tsx",
+                "storage.type.groovy",
                 "storage.type.interface.tsx",
+                "storage.type.jenkinsfile",
                 "storage.type.module.rust",
                 "storage.type.primitive.array.java",
                 "storage.type.primitive.java",
@@ -247,13 +276,12 @@
         },
         {
             "scope": [
-                "entity.name.type",
+                "entity.name.type.groovy",
+                "entity.name.type.jenkinsfile",
                 "meta.at-rule.media.header.css",
                 "meta.declaration.annotation.java",
                 "meta.tag.attributes.tsx",
-                "storage.type",
                 "storage.type.sql",
-                "storage.type.string.go",
                 "support.function.builtin.python",
                 "support.type.exception.python",
                 "support.type.python"
@@ -274,7 +302,15 @@
                 "punctuation.definition.string",
                 "punctuation.separator.key-value.html",
                 "storage.type.string.python",
-                "string"
+                "string",
+                "string.quoted.double.go",
+                "string.quoted.double.groovy",
+                "string.quoted.double.jenkinsfile",
+                "string.quoted.double.shell",
+                "string.quoted.raw.go",
+                "string.quoted.single.groovy",
+                "string.quoted.single.jenkinsfile",
+                "string.quoted.single.shell"
             ],
             "settings": {
                 "foreground": "#6aab73"
@@ -338,6 +374,8 @@
             "scope": [
                 "meta.object-literal.key.js",
                 "meta.object-literal.key.tsx",
+                "variable.other.constant",
+                "variable.other.constant.go",
                 "variable.other.definition.java",
                 "variable.other.object.property.java",
                 "variable.other.property.js",
@@ -350,13 +388,36 @@
         },
         {
             "scope": [
+                "entity.name.function.go",
+                "entity.name.function.groovy",
+                "entity.name.function.jenkinsfile",
                 "entity.name.function.js",
                 "entity.name.function.python",
+                "entity.name.function.shell",
                 "entity.name.function.ts",
-                "entity.name.function.tsx"
+                "entity.name.function.tsx",
+                "support.function.builtin.go",
+                "support.function.builtin.shell"
             ],
             "settings": {
-                "foreground": "#55a6f2"
+                "foreground": "#56a8f5"
+            }
+        },
+        {
+            "scope": [
+                "entity.name.type.parameter"
+            ],
+            "settings": {
+                "foreground": "#16baac"
+            }
+        },
+        {
+            "scope": [
+                "comment.block.documentation",
+                "comment.block.documentation.go"
+            ],
+            "settings": {
+                "foreground": "#5f826b"
             }
         },
         {
