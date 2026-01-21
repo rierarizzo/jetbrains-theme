@@ -112,6 +112,7 @@
                 "entity.name.type.trait.rust",
                 "entity.name.type.ts",
                 "entity.name.type.tsx",
+                "entity.other.attribute-name.astro",
                 "entity.other.attribute-name.html",
                 "entity.other.attribute-name.tsx",
                 "keyword.control.ternary.java",
@@ -167,7 +168,9 @@
                 "punctuation.definition.table.toml",
                 "punctuation.section.block.begin.bracket.curly.java",
                 "punctuation.section.block.end.bracket.curly.java",
+                "punctuation.section.embedded.begin.astro",
                 "punctuation.section.embedded.begin.tsx",
+                "punctuation.section.embedded.end.astro",
                 "punctuation.section.embedded.end.tsx",
                 "punctuation.section.function.begin.bracket.round.css",
                 "punctuation.section.function.end.bracket.round.css",
@@ -223,6 +226,7 @@
                 "entity.name.tag.yaml",
                 "entity.other.attribute-name.id.css",
                 "keyword",
+                "keyword.control.astro",
                 "keyword.control.go",
                 "keyword.control.groovy",
                 "keyword.control.jenkinsfile",
@@ -303,11 +307,13 @@
                 "punctuation.separator.key-value.html",
                 "storage.type.string.python",
                 "string",
+                "string.quoted.double.astro",
                 "string.quoted.double.go",
                 "string.quoted.double.groovy",
                 "string.quoted.double.jenkinsfile",
                 "string.quoted.double.shell",
                 "string.quoted.raw.go",
+                "string.quoted.single.astro",
                 "string.quoted.single.groovy",
                 "string.quoted.single.jenkinsfile",
                 "string.quoted.single.shell"
@@ -343,11 +349,13 @@
         },
         {
             "scope": [
+                "entity.name.tag.astro",
                 "entity.name.tag.html",
                 "entity.name.tag.localname.xml",
                 "entity.name.tag.tsx",
                 "entity.other.attribute-name.class.css",
                 "entity.other.attribute-name.pseudo-class.css",
+                "punctuation.definition.tag.astro",
                 "punctuation.definition.tag.begin.html",
                 "punctuation.definition.tag.begin.tsx",
                 "punctuation.definition.tag.end.html",
@@ -422,6 +430,7 @@
         },
         {
             "scope": [
+                "support.class.component.astro",
                 "support.class.component.tsx"
             ],
             "settings": {
