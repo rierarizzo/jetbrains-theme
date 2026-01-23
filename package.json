@@ -3,7 +3,7 @@
 	"displayName": "JetBrains Theme",
 	"description": "Un tema para VSCode inspirado en el estilo JetBrains.",
 	"publisher": "kenethriera",
-	"version": "1.0.22",
+	"version": "1.0.23",
 	"icon": "images/jetbrains.png",
 	"engines": {
 		"vscode": "^1.60.0"
