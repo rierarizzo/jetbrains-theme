@@ -11,7 +11,7 @@ A dark theme for VS Code inspired by JetBrains IDEs (IntelliJ IDEA, WebStorm, Py
 ## Supported Languages
 
 Optimized highlighting for:
-- JavaScript, TypeScript, React, HTML, CSS
+- JavaScript, TypeScript, React, Angular, HTML, CSS
 - Java, Python, Go, Rust, Bash
 - JSON, YAML, TOML, XML, Jenkinsfile
 

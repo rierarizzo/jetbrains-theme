@@ -7,7 +7,7 @@ This project is a **Visual Studio Code Extension** that provides a dark color th
 - **Publisher:** `kenethriera`
 - **Extension Name:** `jb-theme`
 - **Display Name:** JetBrains Theme
-- **Version:** 1.0.20
+- **Version:** 1.0.24
 - **License:** CC0-1.0
 
 ## Architecture & Structure
@@ -17,7 +17,7 @@ The project follows the standard structure for a VS Code Color Theme extension.
 - **`themes/jetbrains-dark-color_theme.json`**: The core file containing the color definitions (token colors and UI colors) for VS Code.
 - **`jetbrains-dark-color-scheme.icls`**: Likely the original IntelliJ IDEA Color Scheme file used as a reference or source for the port.
 - **`images/`**: Contains the extension icon.
-- **`captures/`**: Contains screenshots used for the extension gallery/marketplace.
+
 
 ## Development & Usage
 
