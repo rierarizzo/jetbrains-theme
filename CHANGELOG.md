@@ -14,3 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - Initial release of the JetBrains Theme.
+- Added support for Astro syntax highlighting.
+- Added support for Go and Bash syntax highlighting.
+- Updated extension icon with a higher quality version.
+- Metadata updates for the VS Code Marketplace.
