@@ -1,12 +1,17 @@
 # JetBrains Theme
 
-A dark theme for VS Code inspired by the UI and color schemes of JetBrains IDEs (IntelliJ IDEA, WebStorm, PyCharm, GoLand, RustRover, etc.).
+A collection of dark themes for VS Code inspired by the UI and color schemes of JetBrains IDEs (IntelliJ IDEA, WebStorm, PyCharm, GoLand, RustRover, etc.).
+
+## Themes Included
+
+- **JetBrains Dark Theme**: The classic experience with a soft dark UI.
+- **JetBrains Deep Dark Theme**: A deeper, more modern dark experience with colors inspired by VS Code's modern high contrast/darker UI, but keeping the JetBrains syntax highlighting.
 
 ## Installation
 
 1. Open VS Code extensions (`Ctrl+Shift+X`).
 2. Search for **JetBrains Theme**.
-3. Install and select **JetBrains Dark Theme**.
+3. Install and select your preferred variant: **JetBrains Dark Theme** or **JetBrains Deep Dark Theme**.
 
 ## Supported Languages
 

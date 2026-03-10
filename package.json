@@ -3,7 +3,7 @@
 	"displayName": "JetBrains Theme",
 	"description": "Un tema para VSCode inspirado en el estilo JetBrains.",
 	"publisher": "kenethriera",
-	"version": "1.0.25",
+	"version": "1.0.26",
 	"icon": "images/jetbrains.png",
 	"engines": {
 		"vscode": "^1.60.0"
@@ -51,6 +51,11 @@
 				"label": "JetBrains Dark Theme",
 				"uiTheme": "vs-dark",
 				"path": "./themes/jetbrains-dark-color_theme.json"
+			},
+			{
+				"label": "JetBrains Deep Dark Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/jetbrains-deep-dark-color_theme.json"
 			}
 		]
 	}
