@@ -118,7 +118,7 @@
         "extensionButton.prominentForeground": "#ffffff",
         "extensionButton.prominentHoverBackground": "#3e9bc4",
         "focusBorder": "#3994bcb3",
-        "foreground": "#B267E6",
+        "foreground": "#bfbfbf",
         "gauge.background": "#58a4f94d",
         "gauge.border": "#2a2c2e",
         "gauge.errorBackground": "#f287724d",
