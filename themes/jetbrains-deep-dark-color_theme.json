@@ -298,8 +298,18 @@
         "welcomePage.progress.foreground": "#0078d4",
         "welcomePage.tileBackground": "#2b2b2b",
         "widget.border": "#2a2b2c",
-        "scope": "token.debug-token",
-        "fontStyle": "underline"
+        "editorBracketPairGuide.activeBackground1": "#56585a",
+        "editorBracketPairGuide.activeBackground2": "#56585a",
+        "editorBracketPairGuide.activeBackground3": "#56585a",
+        "editorBracketPairGuide.activeBackground4": "#56585a",
+        "editorBracketPairGuide.activeBackground5": "#56585a",
+        "editorBracketPairGuide.activeBackground6": "#56585a",
+        "editorBracketPairGuide.background1": "#191a1b",
+        "editorBracketPairGuide.background2": "#191a1b",
+        "editorBracketPairGuide.background3": "#191a1b",
+        "editorBracketPairGuide.background4": "#191a1b",
+        "editorBracketPairGuide.background5": "#191a1b",
+        "editorBracketPairGuide.background6": "#191a1b"
     },
     "tokenColors": [
         {
@@ -739,7 +749,7 @@
         {
             "settings": {
                 "activeGuide": "#CACED6",
-                "background": "#1e1f22",
+                "background": "#121314",
                 "caret": "#528BFF",
                 "findHighlight": "#FFE792",
                 "foreground": "#ABB2BF",
