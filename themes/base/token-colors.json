@@ -1,0 +1,460 @@
+[
+    {
+        "scope": [
+            "comment",
+            "comment.block.go",
+            "comment.line.double-slash.go",
+            "comment.line.double-slash.groovy",
+            "comment.line.double-slash.jenkinsfile",
+            "comment.line.number-sign.shell",
+            "entity.name.type.lifetime.rust",
+            "punctuation.definition.comment.go",
+            "punctuation.definition.lifetime.rust"
+        ],
+        "settings": {
+            "foreground": "#7a7e85"
+        }
+    },
+    {
+        "scope": [
+            "constant.language.java",
+            "storage.modifier.import.java",
+            "storage.modifier.package.java",
+            "constant.other.key.java",
+            "entity.name.type",
+            "entity.name.type.alias.tsx",
+            "entity.name.type.class.java",
+            "entity.name.type.class.python",
+            "entity.name.type.declaration.rust",
+            "entity.name.type.enum.java",
+            "entity.name.type.enum.rust",
+            "entity.name.type.interface.tsx",
+            "entity.name.type.module.tsx",
+            "entity.name.type.rust",
+            "entity.name.type.struct.rust",
+            "entity.name.type.trait.rust",
+            "entity.name.type.ts",
+            "entity.name.type.tsx",
+            "entity.other.attribute-name.angular",
+            "entity.other.attribute-name.astro",
+            "entity.other.attribute-name.directive.angular",
+            "entity.other.attribute-name.html",
+            "entity.other.attribute-name.structural-directive.angular",
+            "entity.other.attribute-name.tsx",
+            "keyword.control.ternary.java",
+            "keyword.operator.access.dot.rust",
+            "keyword.operator.address.go",
+            "keyword.operator.arithmetic.go",
+            "keyword.operator.arithmetic.java",
+            "keyword.operator.arithmetic.python",
+            "keyword.operator.arrow.fat.rust",
+            "keyword.operator.arrow.skinny.rust",
+            "keyword.operator.assignment.equal.rust",
+            "keyword.operator.assignment.go",
+            "keyword.operator.assignment.java",
+            "keyword.operator.assignment.js",
+            "keyword.operator.assignment.python",
+            "keyword.operator.assignment.rust",
+            "keyword.operator.assignment.ts",
+            "keyword.operator.assignment.tsx",
+            "keyword.operator.borrow.and.rust",
+            "keyword.operator.comparison.go",
+            "keyword.operator.comparison.java",
+            "keyword.operator.comparison.python",
+            "keyword.operator.comparison.rust",
+            "keyword.operator.comparison.ts",
+            "keyword.operator.decrement.go",
+            "keyword.operator.dereference.rust",
+            "keyword.operator.go",
+            "keyword.operator.increment-decrement.java",
+            "keyword.operator.increment.go",
+            "keyword.operator.key-value.rust",
+            "keyword.operator.logical.go",
+            "keyword.operator.logical.java",
+            "keyword.operator.logical.ts",
+            "keyword.operator.logical.tsx",
+            "keyword.operator.math.rust",
+            "keyword.operator.namespace.rust",
+            "keyword.operator.optional.ts",
+            "keyword.operator.relational.ts",
+            "keyword.operator.spread.js",
+            "keyword.operator.spread.tsx",
+            "keyword.operator.ternary.ts",
+            "keyword.operator.ternary.tsx",
+            "keyword.operator.type.annotation.ts",
+            "keyword.operator.type.annotation.tsx",
+            "keyword.operator.unpacking.arguments.python",
+            "keyword.other.unit.percentage.css",
+            "meta.function-call.generic.python",
+            "meta.jsx.children.tsx",
+            "meta.property-name.css",
+            "punctuation.definition.block.sequence.item.yaml",
+            "punctuation.definition.block.tsx",
+            "punctuation.definition.entity.css",
+            "punctuation.definition.table.toml",
+            "punctuation.section.block.begin.bracket.curly.java",
+            "punctuation.section.block.end.bracket.curly.java",
+            "punctuation.section.embedded.begin.astro",
+            "punctuation.section.embedded.begin.tsx",
+            "punctuation.section.embedded.end.astro",
+            "punctuation.section.embedded.end.tsx",
+            "punctuation.section.function.begin.bracket.round.css",
+            "punctuation.section.function.end.bracket.round.css",
+            "punctuation.section.property-list.begin.bracket.curly.css",
+            "punctuation.section.property-list.end.bracket.curly.css",
+            "punctuation.separator.comma.tsx",
+            "punctuation.separator.delimiter.java",
+            "punctuation.separator.key-value.css",
+            "punctuation.separator.key-value.js",
+            "punctuation.separator.key-value.mapping.yaml",
+            "punctuation.separator.key-value.tsx",
+            "punctuation.separator.list.comma.css",
+            "punctuation.terminator.rule.css",
+            "storage.type.function.arrow.java",
+            "storage.type.function.arrow.ts",
+            "storage.type.function.arrow.tsx",
+            "storage.type.generic.java",
+            "storage.type.generic.wildcard.java",
+            "storage.type.java",
+            "storage.type.object.array.java",
+            "string.unquoted.plain.out.yaml",
+            "variable.language.java",
+            "variable.language.wildcard.java",
+            "variable.other",
+            "variable.other.object.js",
+            "variable.other.object.ts"
+        ],
+        "settings": {
+            "foreground": "#bcbec4"
+        }
+    },
+    {
+        "scope": [
+            "constant.numeric",
+            "variable.language"
+        ],
+        "settings": {
+            "foreground": "#2aacb8"
+        }
+    },
+    {
+        "scope": [
+            "constant.character.escape.backslash.rust",
+            "constant.character.escape.bit.rust",
+            "constant.character.escape.rust",
+            "constant.character.escape.unicode.rust",
+            "constant.character.format.placeholder.other.python",
+            "constant.language.boolean.false.js",
+            "constant.language.boolean.go",
+            "constant.language.boolean.true.js",
+            "constant.language.go",
+            "entity.name.tag.css",
+            "entity.name.tag.yaml",
+            "entity.other.attribute-name.id.css",
+            "keyword",
+            "keyword.control.astro",
+            "keyword.control.go",
+            "keyword.control.groovy",
+            "keyword.control.jenkinsfile",
+            "keyword.control.rust",
+            "keyword.control.shell",
+            "keyword.operator",
+            "keyword.operator.logical.python",
+            "meta.interpolation.rust",
+            "punctuation.definition.interpolation.rust",
+            "punctuation.definition.template-expression.begin.ts",
+            "punctuation.definition.template-expression.end.ts",
+            "source.yaml",
+            "storage.modifier",
+            "storage.modifier.async.ts",
+            "storage.modifier.async.tsx",
+            "storage.modifier.extends.java",
+            "storage.modifier.implements.java",
+            "storage.modifier.java",
+            "storage.modifier.mut.rust",
+            "storage.modifier.rust",
+            "storage.modifier.sql",
+            "storage.type",
+            "storage.type.class.python",
+            "storage.type.function.async.python",
+            "storage.type.function.python",
+            "storage.type.function.ts",
+            "storage.type.function.tsx",
+            "storage.type.groovy",
+            "storage.type.interface.tsx",
+            "storage.type.jenkinsfile",
+            "storage.type.module.rust",
+            "storage.type.primitive.array.java",
+            "storage.type.primitive.java",
+            "storage.type.rust",
+            "storage.type.ts",
+            "storage.type.tsx",
+            "storage.type.type.tsx",
+            "support.type.primitive.tsx",
+            "support.type.property-name.json",
+            "support.type.property-name.json punctuation",
+            "support.type.property-name.table.toml",
+            "support.type.property-name.toml",
+            "variable.language.rust",
+            "variable.language.self.rust",
+            "variable.language.special.self.python",
+            "variable.language.this.java"
+        ],
+        "settings": {
+            "foreground": "#cf8e6d"
+        }
+    },
+    {
+        "scope": [
+            "entity.name.type.groovy",
+            "entity.name.type.jenkinsfile",
+            "meta.at-rule.media.header.css",
+            "meta.declaration.annotation.java",
+            "meta.tag.attributes.tsx",
+            "storage.type.sql",
+            "support.function.builtin.python",
+            "support.type.exception.python",
+            "support.type.python"
+        ],
+        "settings": {
+            "foreground": "#8888c6"
+        }
+    },
+    {
+        "scope": [
+            "keyword.other.unit.ms.css",
+            "keyword.other.unit.px.css",
+            "keyword.other.unit.rem.css",
+            "keyword.other.unit.vh.css",
+            "keyword.other.unit.vw.css",
+            "meta.property-list.css",
+            "meta.property-value.css",
+            "punctuation.definition.string",
+            "punctuation.separator.key-value.html",
+            "storage.type.string.python",
+            "string",
+            "string.quoted.double.astro",
+            "string.quoted.double.go",
+            "string.quoted.double.groovy",
+            "string.quoted.double.jenkinsfile",
+            "string.quoted.double.shell",
+            "string.quoted.raw.go",
+            "string.quoted.single.astro",
+            "string.quoted.single.groovy",
+            "string.quoted.single.jenkinsfile",
+            "string.quoted.single.shell"
+        ],
+        "settings": {
+            "foreground": "#6aab73"
+        }
+    },
+    {
+        "scope": "variable.parameter.function-call.python",
+        "settings": {
+            "foreground": "#a94927"
+        }
+    },
+    {
+        "scope": "string.quoted.docstring.multi.python",
+        "settings": {
+            "foreground": "#5d7e68"
+        }
+    },
+    {
+        "scope": [
+            "entity.name.function.decorator.python",
+            "meta.attribute.rust",
+            "punctuation.definition.annotation-arguments.begin.bracket.round.java",
+            "punctuation.definition.annotation-arguments.end.bracket.round.java",
+            "punctuation.definition.annotation.java",
+            "storage.type.annotation.java"
+        ],
+        "settings": {
+            "foreground": "#b3ae60"
+        }
+    },
+    {
+        "scope": [
+            "entity.name.tag.angular",
+            "entity.name.tag.astro",
+            "entity.name.tag.component.angular",
+            "entity.name.tag.html",
+            "entity.name.tag.localname.xml",
+            "entity.name.tag.tsx",
+            "entity.other.attribute-name.class.css",
+            "entity.other.attribute-name.pseudo-class.css",
+            "punctuation.definition.tag.angular",
+            "punctuation.definition.tag.astro",
+            "punctuation.definition.tag.begin.angular",
+            "punctuation.definition.tag.begin.astro",
+            "punctuation.definition.tag.begin.html",
+            "punctuation.definition.tag.begin.js",
+            "punctuation.definition.tag.begin.js.jsx",
+            "punctuation.definition.tag.begin.tsx",
+            "punctuation.definition.tag.begin.xml",
+            "punctuation.definition.tag.end.angular",
+            "punctuation.definition.tag.end.astro",
+            "punctuation.definition.tag.end.html",
+            "punctuation.definition.tag.end.js",
+            "punctuation.definition.tag.end.js.jsx",
+            "punctuation.definition.tag.end.tsx",
+            "punctuation.definition.tag.end.xml",
+            "punctuation.definition.tag.js",
+            "punctuation.definition.tag.xml",
+            "support.function.misc.css",
+            "support.function.url.css"
+        ],
+        "settings": {
+            "foreground": "#d5b778"
+        }
+    },
+    {
+        "scope": [
+            "entity.name.function.macro.rules.rust",
+            "keyword.operator.macro.dollar.rust",
+            "variable.other.metavariable.specifier.rust"
+        ],
+        "settings": {
+            "foreground": "#ffc66d"
+        }
+    },
+    {
+        "scope": [
+            "meta.object-literal.key.js",
+            "meta.object-literal.key.tsx",
+            "variable.other.constant",
+            "variable.other.constant.go",
+            "variable.other.definition.java",
+            "variable.other.object.property.java",
+            "variable.other.property.js",
+            "variable.other.property.ts",
+            "variable.other.property.tsx"
+        ],
+        "settings": {
+            "foreground": "#c77dbb"
+        }
+    },
+    {
+        "scope": [
+            "entity.name.function.go",
+            "entity.name.function.groovy",
+            "entity.name.function.jenkinsfile",
+            "entity.name.function.js",
+            "entity.name.function.python",
+            "entity.name.function.shell",
+            "entity.name.function.ts",
+            "entity.name.function.tsx",
+            "support.function.builtin.go",
+            "support.function.builtin.shell"
+        ],
+        "settings": {
+            "foreground": "#56a8f5"
+        }
+    },
+    {
+        "scope": [
+            "entity.name.type.parameter"
+        ],
+        "settings": {
+            "foreground": "#16baac"
+        }
+    },
+    {
+        "scope": [
+            "comment.block.documentation",
+            "comment.block.documentation.go"
+        ],
+        "settings": {
+            "foreground": "#5f826b"
+        }
+    },
+    {
+        "scope": [
+            "support.class.component.astro",
+            "support.class.component.tsx"
+        ],
+        "settings": {
+            "foreground": "#2fbaa3"
+        }
+    },
+    {
+        "scope": [
+            "markup.heading",
+            "punctuation.definition.heading.markdown"
+        ],
+        "settings": {
+            "foreground": "#cf8e6d",
+            "fontStyle": "bold"
+        }
+    },
+    {
+        "scope": [
+            "markup.bold",
+            "punctuation.definition.bold.markdown"
+        ],
+        "settings": {
+            "fontStyle": "bold"
+        }
+    },
+    {
+        "scope": [
+            "markup.italic",
+            "punctuation.definition.italic.markdown"
+        ],
+        "settings": {
+            "fontStyle": "italic"
+        }
+    },
+    {
+        "scope": [
+            "markup.list",
+            "punctuation.definition.list.begin.markdown"
+        ],
+        "settings": {
+            "foreground": "#bcbec4"
+        }
+    },
+    {
+        "scope": [
+            "markup.quote",
+            "punctuation.definition.quote.begin.markdown"
+        ],
+        "settings": {
+            "foreground": "#5f826b",
+            "fontStyle": "italic"
+        }
+    },
+    {
+        "scope": [
+            "markup.inline.raw",
+            "markup.fenced_code.block.markdown",
+            "markup.raw.block.markdown"
+        ],
+        "settings": {
+            "foreground": "#6aab73"
+        }
+    },
+    {
+        "scope": [
+            "markup.underline.link",
+            "markup.underline.link.image.markdown",
+            "punctuation.definition.metadata.markdown"
+        ],
+        "settings": {
+            "foreground": "#56a8f5"
+        }
+    },
+    {
+        "settings": {
+            "activeGuide": "#CACED6",
+            "background": "#1e1f22",
+            "caret": "#528BFF",
+            "findHighlight": "#FFE792",
+            "foreground": "#ABB2BF",
+            "guide": "#3C4049",
+            "invisibles": "#3C4049",
+            "lineHighlight": "#2C313A",
+            "selection": "#3E4451"
+        }
+    }
+]

@@ -33,6 +33,9 @@
 		"angular"
 	],
 	"scripts": {
+		"build": "node scripts/build-themes.js",
+		"prepackage": "npm run build",
+		"prepublish": "npm run build",
 		"package": "vsce package",
 		"publish": "vsce publish"
 	},
@@ -50,18 +53,18 @@
 			{
 				"label": "JetBrains Dark Theme",
 				"uiTheme": "vs-dark",
-				"path": "./themes/jetbrains-dark-color_theme.json"
+				"path": "./themes/generated/jetbrains-dark-color_theme.json"
 			},
 			{
 				"label": "JetBrains Deep Dark Theme",
 				"uiTheme": "vs-dark",
-				"path": "./themes/jetbrains-deep-dark-color_theme.json"
+				"path": "./themes/generated/jetbrains-deep-dark-color_theme.json"
 			},
 			{
 				"label": "JetBrains Dark Modern Theme",
 				"uiTheme": "vs-dark",
-				"path": "./themes/jetbrains-dark-modern-color_theme.json"
+				"path": "./themes/generated/jetbrains-dark-modern-color_theme.json"
 			}
-		]
+/		]
 	}
 }

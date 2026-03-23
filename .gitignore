@@ -1,5 +1,6 @@
 # Build artifacts
 *.vsix
+themes/generated/
 
 # Node modules
 node_modules/
