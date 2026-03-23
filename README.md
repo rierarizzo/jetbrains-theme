@@ -5,6 +5,7 @@ A collection of dark themes for VS Code inspired by the UI and color schemes of 
 ## Themes Included
 
 - **JetBrains Dark Theme**: The classic experience with a soft dark UI.
+- **JetBrains Dark Modern Theme**: A modern take on the classic dark theme with updated UI colors for a cleaner, more contemporary look.
 - **JetBrains Deep Dark Theme**: A deeper, more modern dark experience with colors inspired by VS Code's modern high contrast/darker UI, but keeping the JetBrains syntax highlighting.
 
 ## Installation
