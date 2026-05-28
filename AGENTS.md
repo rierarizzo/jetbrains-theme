@@ -14,6 +14,7 @@ npm version patch  # or minor/major depending on the change
 git add <changed-files>
 git commit -m "description"
 git push
+npm run package
 npm run publish
 git push --tags
 ```
