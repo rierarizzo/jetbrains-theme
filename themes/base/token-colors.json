@@ -18,86 +18,6 @@
     },
     {
         "scope": [
-            "comment.block.documentation",
-            "comment.block.documentation.go"
-        ],
-        "settings": {
-            "foreground": "#5f826b"
-        }
-    },
-    {
-        "scope": [
-            "constant.character.escape.backslash.rust",
-            "constant.character.escape.bit.rust",
-            "constant.character.escape.rust",
-            "constant.character.escape.unicode.rust",
-            "constant.character.format.placeholder.other.python",
-            "constant.language.boolean.false.js",
-            "constant.language.boolean.go",
-            "constant.language.boolean.true.js",
-            "constant.language.go",
-            "constant.language.terraform",
-            "entity.name.tag.css",
-            "entity.name.tag.yaml",
-            "entity.other.attribute-name.id.css",
-            "keyword",
-            "keyword.control.astro",
-            "keyword.control.go",
-            "keyword.control.groovy",
-            "keyword.control.jenkinsfile",
-            "keyword.control.rust",
-            "keyword.control.shell",
-            "keyword.control.terraform",
-            "keyword.operator",
-            "keyword.operator.logical.python",
-            "meta.interpolation.rust",
-            "punctuation.definition.interpolation.rust",
-            "punctuation.definition.template-expression.begin.ts",
-            "punctuation.definition.template-expression.end.ts",
-            "source.yaml",
-            "storage.modifier",
-            "storage.modifier.async.ts",
-            "storage.modifier.async.tsx",
-            "storage.modifier.extends.java",
-            "storage.modifier.implements.java",
-            "storage.modifier.java",
-            "storage.modifier.mut.rust",
-            "storage.modifier.rust",
-            "storage.modifier.sql",
-            "storage.modifier.terraform",
-            "storage.type",
-            "storage.type.class.python",
-            "storage.type.function.async.python",
-            "storage.type.function.python",
-            "storage.type.function.ts",
-            "storage.type.function.tsx",
-            "storage.type.groovy",
-            "storage.type.interface.tsx",
-            "storage.type.jenkinsfile",
-            "storage.type.module.rust",
-            "storage.type.primitive.array.java",
-            "storage.type.primitive.java",
-            "storage.type.rust",
-            "storage.type.terraform",
-            "storage.type.ts",
-            "storage.type.tsx",
-            "storage.type.type.tsx",
-            "support.type.primitive.tsx",
-            "support.type.property-name.json",
-            "support.type.property-name.json punctuation",
-            "support.type.property-name.table.toml",
-            "support.type.property-name.toml",
-            "variable.language.rust",
-            "variable.language.self.rust",
-            "variable.language.special.self.python",
-            "variable.language.this.java"
-        ],
-        "settings": {
-            "foreground": "#cf8e6d"
-        }
-    },
-    {
-        "scope": [
             "constant.language.java",
             "constant.other.key.java",
             "entity.name.type",
@@ -225,79 +145,75 @@
     },
     {
         "scope": [
-            "entity.name.function.decorator.python",
-            "meta.attribute.rust",
-            "punctuation.definition.annotation-arguments.begin.bracket.round.java",
-            "punctuation.definition.annotation-arguments.end.bracket.round.java",
-            "punctuation.definition.annotation.java",
-            "storage.type.annotation.java"
-        ],
-        "settings": {
-            "foreground": "#b3ae60"
-        }
-    },
-    {
-        "scope": [
-            "entity.name.function.go",
-            "entity.name.function.groovy",
-            "entity.name.function.jenkinsfile",
-            "entity.name.function.js",
-            "entity.name.function.python",
-            "entity.name.function.shell",
-            "entity.name.function.ts",
-            "entity.name.function.tsx",
-            "support.function.builtin.go",
-            "support.function.builtin.shell"
-        ],
-        "settings": {
-            "foreground": "#56a8f5"
-        }
-    },
-    {
-        "scope": [
-            "entity.name.function.macro.rules.rust",
-            "keyword.operator.macro.dollar.rust",
-            "variable.other.metavariable.specifier.rust"
-        ],
-        "settings": {
-            "foreground": "#ffc66d"
-        }
-    },
-    {
-        "scope": [
+            "constant.character.escape.backslash.rust",
+            "constant.character.escape.bit.rust",
+            "constant.character.escape.rust",
+            "constant.character.escape.unicode.rust",
+            "constant.character.format.placeholder.other.python",
+            "constant.language.boolean.false.js",
+            "constant.language.boolean.go",
+            "constant.language.boolean.true.js",
+            "constant.language.go",
+            "constant.language.terraform",
             "entity.name.label.terraform",
-            "entity.name.tag.angular",
-            "entity.name.tag.astro",
-            "entity.name.tag.component.angular",
-            "entity.name.tag.html",
-            "entity.name.tag.localname.xml",
+            "entity.name.tag.css",
             "entity.name.tag.terraform",
-            "entity.name.tag.tsx",
-            "entity.other.attribute-name.class.css",
-            "entity.other.attribute-name.pseudo-class.css",
-            "punctuation.definition.tag.angular",
-            "punctuation.definition.tag.astro",
-            "punctuation.definition.tag.begin.angular",
-            "punctuation.definition.tag.begin.astro",
-            "punctuation.definition.tag.begin.html",
-            "punctuation.definition.tag.begin.js",
-            "punctuation.definition.tag.begin.js.jsx",
-            "punctuation.definition.tag.begin.tsx",
-            "punctuation.definition.tag.begin.xml",
-            "punctuation.definition.tag.end.angular",
-            "punctuation.definition.tag.end.astro",
-            "punctuation.definition.tag.end.html",
-            "punctuation.definition.tag.end.js",
-            "punctuation.definition.tag.end.js.jsx",
-            "punctuation.definition.tag.end.tsx",
-            "punctuation.definition.tag.end.xml",
-            "punctuation.definition.tag.js",
-            "punctuation.definition.tag.xml",
-            "support.function.misc.css",
-            "support.function.url.css"
+            "entity.name.tag.yaml",
+            "entity.other.attribute-name.id.css",
+            "keyword",
+            "keyword.control.astro",
+            "keyword.control.go",
+            "keyword.control.groovy",
+            "keyword.control.jenkinsfile",
+            "keyword.control.rust",
+            "keyword.control.shell",
+            "keyword.control.terraform",
+            "keyword.operator",
+            "keyword.operator.logical.python",
+            "meta.interpolation.rust",
+            "punctuation.definition.interpolation.rust",
+            "punctuation.definition.template-expression.begin.ts",
+            "punctuation.definition.template-expression.end.ts",
+            "source.yaml",
+            "storage.modifier",
+            "storage.modifier.async.ts",
+            "storage.modifier.async.tsx",
+            "storage.modifier.extends.java",
+            "storage.modifier.implements.java",
+            "storage.modifier.java",
+            "storage.modifier.mut.rust",
+            "storage.modifier.rust",
+            "storage.modifier.sql",
+            "storage.modifier.terraform",
+            "storage.type",
+            "storage.type.class.python",
+            "storage.type.function.async.python",
+            "storage.type.function.python",
+            "storage.type.function.ts",
+            "storage.type.function.tsx",
+            "storage.type.groovy",
+            "storage.type.interface.tsx",
+            "storage.type.jenkinsfile",
+            "storage.type.module.rust",
+            "storage.type.primitive.array.java",
+            "storage.type.primitive.java",
+            "storage.type.rust",
+            "storage.type.terraform",
+            "storage.type.ts",
+            "storage.type.tsx",
+            "storage.type.type.tsx",
+            "support.type.primitive.tsx",
+            "support.type.property-name.json",
+            "support.type.property-name.json punctuation",
+            "support.type.property-name.table.toml",
+            "support.type.property-name.toml",
+            "variable.language.rust",
+            "variable.language.self.rust",
+            "variable.language.special.self.python",
+            "variable.language.this.java"
         ],
         "settings": {
-            "foreground": "#d5b778"
+            "foreground": "#cf8e6d"
         }
     },
     {
@@ -314,14 +230,6 @@
         ],
         "settings": {
             "foreground": "#8888c6"
-        }
-    },
-    {
-        "scope": [
-            "entity.name.type.parameter"
-        ],
-        "settings": {
-            "foreground": "#16baac"
         }
     },
     {
@@ -356,22 +264,132 @@
         }
     },
     {
-        "scope": [
-            "markup.bold",
-            "punctuation.definition.bold.markdown"
-        ],
+        "scope": "variable.parameter.function-call.python",
         "settings": {
-            "fontStyle": "bold"
+            "foreground": "#a94927"
+        }
+    },
+    {
+        "scope": "string.quoted.docstring.multi.python",
+        "settings": {
+            "foreground": "#5d7e68"
         }
     },
     {
         "scope": [
-            "markup.fenced_code.block.markdown",
-            "markup.inline.raw",
-            "markup.raw.block.markdown"
+            "entity.name.function.decorator.python",
+            "meta.attribute.rust",
+            "punctuation.definition.annotation-arguments.begin.bracket.round.java",
+            "punctuation.definition.annotation-arguments.end.bracket.round.java",
+            "punctuation.definition.annotation.java",
+            "storage.type.annotation.java"
         ],
         "settings": {
-            "foreground": "#6aab73"
+            "foreground": "#b3ae60"
+        }
+    },
+    {
+        "scope": [
+            "entity.name.tag.angular",
+            "entity.name.tag.astro",
+            "entity.name.tag.component.angular",
+            "entity.name.tag.html",
+            "entity.name.tag.localname.xml",
+            "entity.name.tag.tsx",
+            "entity.other.attribute-name.class.css",
+            "entity.other.attribute-name.pseudo-class.css",
+            "punctuation.definition.tag.angular",
+            "punctuation.definition.tag.astro",
+            "punctuation.definition.tag.begin.angular",
+            "punctuation.definition.tag.begin.astro",
+            "punctuation.definition.tag.begin.html",
+            "punctuation.definition.tag.begin.js",
+            "punctuation.definition.tag.begin.js.jsx",
+            "punctuation.definition.tag.begin.tsx",
+            "punctuation.definition.tag.begin.xml",
+            "punctuation.definition.tag.end.angular",
+            "punctuation.definition.tag.end.astro",
+            "punctuation.definition.tag.end.html",
+            "punctuation.definition.tag.end.js",
+            "punctuation.definition.tag.end.js.jsx",
+            "punctuation.definition.tag.end.tsx",
+            "punctuation.definition.tag.end.xml",
+            "punctuation.definition.tag.js",
+            "punctuation.definition.tag.xml",
+            "support.function.misc.css",
+            "support.function.url.css"
+        ],
+        "settings": {
+            "foreground": "#d5b778"
+        }
+    },
+    {
+        "scope": [
+            "entity.name.function.macro.rules.rust",
+            "keyword.operator.macro.dollar.rust",
+            "variable.other.metavariable.specifier.rust"
+        ],
+        "settings": {
+            "foreground": "#ffc66d"
+        }
+    },
+    {
+        "scope": [
+            "meta.object-literal.key.js",
+            "meta.object-literal.key.tsx",
+            "variable.other.constant",
+            "variable.other.constant.go",
+            "variable.other.definition.java",
+            "variable.other.object.property.java",
+            "variable.other.property.js",
+            "variable.other.property.ts",
+            "variable.other.property.tsx"
+        ],
+        "settings": {
+            "foreground": "#c77dbb"
+        }
+    },
+    {
+        "scope": [
+            "entity.name.function.go",
+            "entity.name.function.groovy",
+            "entity.name.function.jenkinsfile",
+            "entity.name.function.js",
+            "entity.name.function.python",
+            "entity.name.function.shell",
+            "entity.name.function.ts",
+            "entity.name.function.tsx",
+            "support.function.builtin.go",
+            "support.function.builtin.shell"
+        ],
+        "settings": {
+            "foreground": "#56a8f5"
+        }
+    },
+    {
+        "scope": [
+            "entity.name.type.parameter"
+        ],
+        "settings": {
+            "foreground": "#16baac"
+        }
+    },
+    {
+        "scope": [
+            "comment.block.documentation",
+            "comment.block.documentation.go"
+        ],
+        "settings": {
+            "foreground": "#5f826b"
+        }
+    },
+    {
+        "scope": [
+            "support.class.component.astro",
+            "support.class.component.tsx"
+        ],
+        "settings": {
+            "foreground": "#2fbaa3"
         }
     },
     {
@@ -380,8 +398,17 @@
             "punctuation.definition.heading.markdown"
         ],
         "settings": {
-            "fontStyle": "bold",
-            "foreground": "#cf8e6d"
+            "foreground": "#cf8e6d",
+            "fontStyle": "bold"
+        }
+    },
+    {
+        "scope": [
+            "markup.bold",
+            "punctuation.definition.bold.markdown"
+        ],
+        "settings": {
+            "fontStyle": "bold"
         }
     },
     {
@@ -408,8 +435,18 @@
             "punctuation.definition.quote.begin.markdown"
         ],
         "settings": {
-            "fontStyle": "italic",
-            "foreground": "#5f826b"
+            "foreground": "#5f826b",
+            "fontStyle": "italic"
+        }
+    },
+    {
+        "scope": [
+            "markup.inline.raw",
+            "markup.fenced_code.block.markdown",
+            "markup.raw.block.markdown"
+        ],
+        "settings": {
+            "foreground": "#6aab73"
         }
     },
     {
@@ -420,43 +457,6 @@
         ],
         "settings": {
             "foreground": "#56a8f5"
-        }
-    },
-    {
-        "scope": [
-            "meta.object-literal.key.js",
-            "meta.object-literal.key.tsx",
-            "variable.other.constant",
-            "variable.other.constant.go",
-            "variable.other.definition.java",
-            "variable.other.object.property.java",
-            "variable.other.property.js",
-            "variable.other.property.ts",
-            "variable.other.property.tsx"
-        ],
-        "settings": {
-            "foreground": "#c77dbb"
-        }
-    },
-    {
-        "scope": "string.quoted.docstring.multi.python",
-        "settings": {
-            "foreground": "#5d7e68"
-        }
-    },
-    {
-        "scope": [
-            "support.class.component.astro",
-            "support.class.component.tsx"
-        ],
-        "settings": {
-            "foreground": "#2fbaa3"
-        }
-    },
-    {
-        "scope": "variable.parameter.function-call.python",
-        "settings": {
-            "foreground": "#a94927"
         }
     },
     {
