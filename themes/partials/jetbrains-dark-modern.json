@@ -1,6 +1,4 @@
 {
-    "name": "JetBrains Dark Modern Theme",
-    "type": "dark",
     "colors": {
         "actionBar.toggledBackground": "#383a49",
         "activityBar.activeBorder": "#0078d4",
@@ -151,5 +149,7 @@
         "welcomePage.progress.foreground": "#0078d4",
         "welcomePage.tileBackground": "#2b2b2b",
         "widget.border": "#313131"
-    }
+    },
+    "name": "JetBrains Dark Modern Theme",
+    "type": "dark"
 }

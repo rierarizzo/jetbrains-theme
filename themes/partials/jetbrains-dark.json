@@ -1,6 +1,4 @@
 {
-    "name": "JetBrains Dark Theme",
-    "type": "dark",
     "colors": {
         "activityBar.background": "#2b2d30",
         "activityBar.border": "#2b2d30",
@@ -75,5 +73,7 @@
         "titleBar.activeBackground": "#2b2d30",
         "titleBar.inactiveBackground": "#2b2d30",
         "welcomePage.background": "#2b2d30"
-    }
+    },
+    "name": "JetBrains Dark Theme",
+    "type": "dark"
 }
