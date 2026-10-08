@@ -3,7 +3,7 @@
 	"displayName": "JetBrains Theme",
 	"description": "Un tema para VSCode inspirado en el estilo JetBrains.",
 	"publisher": "kenethriera",
-	"version": "1.0.34",
+	"version": "1.0.35",
 	"icon": "images/jetbrains.png",
 	"engines": {
 		"vscode": "^1.60.0"
@@ -30,7 +30,9 @@
 		"webstorm",
 		"phpstorm",
 		"astro",
-		"angular"
+		"angular",
+		"dart",
+		"flutter"
 	],
 	"scripts": {
 		"build": "node scripts/build-themes.js",

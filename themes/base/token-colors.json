@@ -9,6 +9,13 @@
             "comment.line.number-sign.shell",
             "comment.line.number-sign.terraform",
             "comment.line.number-sign.hcl",
+            "comment.block.dart",
+            "comment.block.documentation.dart",
+            "comment.block.empty.dart",
+            "comment.line.double-slash.dart",
+            "meta.preprocessor.script.dart",
+            "punctuation.definition.comment.dart",
+            "variable.name.source.dart",
             "entity.name.type.lifetime.rust",
             "punctuation.definition.comment.go",
             "punctuation.definition.lifetime.rust"
@@ -92,6 +99,10 @@
             "punctuation.definition.block.tsx",
             "punctuation.definition.entity.css",
             "punctuation.definition.table.toml",
+            "other.source.dart",
+            "punctuation.comma.dart",
+            "punctuation.dot.dart",
+            "punctuation.terminator.dart",
             "punctuation.section.block.begin.bracket.curly.java",
             "punctuation.section.block.end.bracket.curly.java",
             "punctuation.section.bracket.curly.terraform",
@@ -126,13 +137,15 @@
             "storage.type.java",
             "storage.type.object.array.java",
             "string.unquoted.plain.out.yaml",
+            "support.class.dart",
             "variable.language.java",
             "variable.language.wildcard.java",
             "variable.other",
             "variable.other.member.terraform",
             "variable.other.member.hcl",
             "variable.other.object.js",
-            "variable.other.object.ts"
+            "variable.other.object.ts",
+            "variable.parameter.dart"
         ],
         "settings": {
             "foreground": "#bcbec4"
@@ -143,6 +156,7 @@
             "constant.numeric",
             "constant.numeric.terraform",
             "constant.numeric.hcl",
+            "constant.numeric.dart",
             "variable.language"
         ],
         "settings": {
@@ -155,6 +169,7 @@
             "constant.character.escape.bit.rust",
             "constant.character.escape.rust",
             "constant.character.escape.unicode.rust",
+            "constant.character.escape.dart",
             "constant.character.format.placeholder.other.python",
             "constant.language.boolean.false.js",
             "constant.language.boolean.go",
@@ -162,6 +177,7 @@
             "constant.language.go",
             "constant.language.terraform",
             "constant.language.hcl",
+            "constant.language.dart",
             "entity.name.label.terraform",
             "entity.name.label.hcl",
             "entity.name.type.terraform",
@@ -180,6 +196,13 @@
             "keyword.control.shell",
             "keyword.control.terraform",
             "keyword.control.hcl",
+            "keyword.cast.dart",
+            "keyword.control.catch-exception.dart",
+            "keyword.control.dart",
+            "keyword.control.return.dart",
+            "keyword.declaration.dart",
+            "keyword.new.dart",
+            "keyword.other.import.dart",
             "keyword.operator",
             "keyword.operator.logical.python",
             "meta.interpolation.rust",
@@ -198,6 +221,7 @@
             "storage.modifier.sql",
             "storage.modifier.terraform",
             "storage.modifier.hcl",
+            "storage.modifier.dart",
             "storage.type",
             "storage.type.class.python",
             "storage.type.function.async.python",
@@ -213,6 +237,7 @@
             "storage.type.rust",
             "storage.type.terraform",
             "storage.type.hcl",
+            "storage.type.primitive.dart",
             "storage.type.ts",
             "storage.type.tsx",
             "storage.type.type.tsx",
@@ -274,7 +299,16 @@
             "string.quoted.single.astro",
             "string.quoted.single.groovy",
             "string.quoted.single.jenkinsfile",
-            "string.quoted.single.shell"
+            "string.quoted.single.shell",
+            "meta.embedded.expression.dart",
+            "string.interpolated.double.dart",
+            "string.interpolated.single.dart",
+            "string.interpolated.triple.double.dart",
+            "string.interpolated.triple.single.dart",
+            "string.quoted.double.dart",
+            "string.quoted.single.dart",
+            "string.quoted.triple.double.dart",
+            "string.quoted.triple.single.dart"
         ],
         "settings": {
             "foreground": "#6aab73"
@@ -299,6 +333,7 @@
             "punctuation.definition.annotation-arguments.begin.bracket.round.java",
             "punctuation.definition.annotation-arguments.end.bracket.round.java",
             "punctuation.definition.annotation.java",
+            "storage.type.annotation.dart",
             "storage.type.annotation.java"
         ],
         "settings": {
@@ -368,6 +403,7 @@
     },
     {
         "scope": [
+            "entity.name.function.dart",
             "entity.name.function.go",
             "entity.name.function.groovy",
             "entity.name.function.jenkinsfile",

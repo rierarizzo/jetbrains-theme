@@ -19,7 +19,8 @@ A collection of dark themes for VS Code inspired by the UI and color schemes of 
 Optimized highlighting for:
 - JavaScript, TypeScript, React, Angular, HTML, CSS, Astro
 - Java, Groovy, Python, Go, Rust, Bash
-- JSON, YAML, TOML, XML, Jenkinsfile
+- Dart, Flutter
+- JSON, YAML, TOML, XML, Terraform (HCL), Jenkinsfile
 
 ## Colors
 
