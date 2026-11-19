@@ -337,6 +337,7 @@
             "storage.type.annotation.dart",
             "storage.type.annotation.java",
             "meta.attribute.rust entity.name.type.rust",
+            "meta.attribute.rust keyword.operator",
             "meta.attribute.rust punctuation"
         ],
         "settings": {
@@ -419,6 +420,7 @@
         "scope": [
             "entity.name.function.macro.rust",
             "entity.name.function.rust",
+            "entity.name.type.macro.rust",
             "entity.name.function.dart",
             "entity.name.function.go",
             "entity.name.function.groovy",
