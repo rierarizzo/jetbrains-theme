@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [1.0.36] - 2026-11-18
+
+### Added
+- Richer Rust highlighting (#3): function and macro names, constants/statics, `Some`/`None`/`Ok`/`Err`, `true`/`false`, doc comments and full `#[derive(...)]` attributes now get JetBrains colors.
+- Rust semantic token colors for rust-analyzer (struct fields, enum variants, methods, macros, type parameters, mutable bindings underlined). Applied when semantic highlighting is enabled for Rust.
+
 ## [1.0.35] - 2026-05-28
 
 ### Added

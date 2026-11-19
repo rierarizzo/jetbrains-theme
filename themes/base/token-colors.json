@@ -249,7 +249,8 @@
             "variable.language.rust",
             "variable.language.self.rust",
             "variable.language.special.self.python",
-            "variable.language.this.java"
+            "variable.language.this.java",
+            "constant.language.bool.rust"
         ],
         "settings": {
             "foreground": "#cf8e6d"
@@ -334,7 +335,9 @@
             "punctuation.definition.annotation-arguments.end.bracket.round.java",
             "punctuation.definition.annotation.java",
             "storage.type.annotation.dart",
-            "storage.type.annotation.java"
+            "storage.type.annotation.java",
+            "meta.attribute.rust entity.name.type.rust",
+            "meta.attribute.rust punctuation"
         ],
         "settings": {
             "foreground": "#b3ae60"
@@ -403,6 +406,19 @@
     },
     {
         "scope": [
+            "constant.other.caps.rust",
+            "entity.name.type.option.rust",
+            "entity.name.type.result.rust"
+        ],
+        "settings": {
+            "foreground": "#c77dbb",
+            "fontStyle": "italic"
+        }
+    },
+    {
+        "scope": [
+            "entity.name.function.macro.rust",
+            "entity.name.function.rust",
             "entity.name.function.dart",
             "entity.name.function.go",
             "entity.name.function.groovy",
@@ -430,7 +446,9 @@
     {
         "scope": [
             "comment.block.documentation",
-            "comment.block.documentation.go"
+            "comment.block.documentation.go",
+            "comment.block.documentation.rust",
+            "comment.line.documentation.rust"
         ],
         "settings": {
             "foreground": "#5f826b"
