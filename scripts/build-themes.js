@@ -5,8 +5,10 @@ const baseDir = path.join(__dirname, '..', 'themes');
 const partialsDir = path.join(baseDir, 'partials');
 const generatedDir = path.join(baseDir, 'generated');
 const tokenColorsPath = path.join(baseDir, 'base', 'token-colors.json');
+const semanticTokenColorsPath = path.join(baseDir, 'base', 'semantic-token-colors.json');
 
 const tokenColors = JSON.parse(fs.readFileSync(tokenColorsPath, 'utf8'));
+const semanticTokenColors = JSON.parse(fs.readFileSync(semanticTokenColorsPath, 'utf8'));
 
 if (!fs.existsSync(generatedDir)) {
     fs.mkdirSync(generatedDir, { recursive: true });
@@ -22,7 +24,8 @@ partialFiles.forEach(file => {
 
     const theme = {
         ...partial,
-        tokenColors
+        tokenColors,
+        semanticTokenColors
     };
 
     const baseName = file.replace('.json', '');

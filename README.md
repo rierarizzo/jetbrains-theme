@@ -22,6 +22,16 @@ Optimized highlighting for:
 - Dart, Flutter
 - JSON, YAML, TOML, XML, Terraform (HCL), Jenkinsfile
 
+### Rust semantic highlighting
+
+With [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer), enable semantic highlighting for Rust to get RustRover-like colors for struct fields, enum variants, methods and mutable bindings:
+
+```json
+"[rust]": {
+    "editor.semanticHighlighting.enabled": true
+}
+```
+
 ## Colors
 
 | Scope | Color | Hex |

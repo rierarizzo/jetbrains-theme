@@ -1,0 +1,59 @@
+{
+    "function:rust": "#56a8f5",
+    "method:rust": "#57aaf7",
+    "macro:rust": "#56a8f5",
+    "property:rust": "#c77dbb",
+    "enumMember:rust": {
+        "foreground": "#c77dbb",
+        "italic": true
+    },
+    "const:rust": {
+        "foreground": "#c77dbb",
+        "italic": true
+    },
+    "static:rust": {
+        "foreground": "#c77dbb",
+        "italic": true
+    },
+    "variable.constant:rust": {
+        "foreground": "#c77dbb",
+        "italic": true
+    },
+    "variable.static:rust": {
+        "foreground": "#c77dbb",
+        "italic": true
+    },
+    "variable:rust": "#bcbec4",
+    "variable.mutable:rust": {
+        "foreground": "#bcbec4",
+        "underline": true
+    },
+    "parameter:rust": "#bcbec4",
+    "parameter.mutable:rust": {
+        "foreground": "#bcbec4",
+        "underline": true
+    },
+    "struct:rust": "#bcbec4",
+    "enum:rust": "#bcbec4",
+    "union:rust": "#bcbec4",
+    "interface:rust": "#bcbec4",
+    "typeAlias:rust": "#bcbec4",
+    "namespace:rust": "#bcbec4",
+    "typeParameter:rust": "#16baac",
+    "constParameter:rust": "#16baac",
+    "lifetime:rust": "#7a7e85",
+    "label:rust": "#7a7e85",
+    "attribute:rust": "#b3ae60",
+    "attributeBracket:rust": "#b3ae60",
+    "builtinAttribute:rust": "#b3ae60",
+    "derive:rust": "#b3ae60",
+    "deriveHelper:rust": "#b3ae60",
+    "keyword:rust": "#cf8e6d",
+    "selfKeyword:rust": "#cf8e6d",
+    "selfTypeKeyword:rust": "#cf8e6d",
+    "builtinType:rust": "#cf8e6d",
+    "boolean:rust": "#cf8e6d",
+    "escapeSequence:rust": "#cf8e6d",
+    "formatSpecifier:rust": "#cf8e6d",
+    "comment.documentation:rust": "#5f826b"
+}
