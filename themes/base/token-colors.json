@@ -337,7 +337,8 @@
             "storage.type.annotation.dart",
             "storage.type.annotation.java",
             "meta.attribute.rust entity.name.type.rust",
-            "meta.attribute.rust keyword.operator",
+            "meta.attribute.rust keyword.operator.assignment.equal.rust",
+            "meta.attribute.rust keyword.operator.namespace.rust",
             "meta.attribute.rust punctuation"
         ],
         "settings": {
