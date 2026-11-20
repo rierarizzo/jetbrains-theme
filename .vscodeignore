@@ -1,4 +1,6 @@
 node_modules/
+.github/
+*.vsix
 .vscode/
 .vscode-test/
 .gitignore
