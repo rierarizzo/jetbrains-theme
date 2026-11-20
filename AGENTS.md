@@ -15,4 +15,4 @@ No dependencies: from a fresh clone, `npm run build` regenerates `themes/generat
 
 ## Releasing
 
-Build and release steps live in the README's Development section. Never run `npm run publish`: a `v*` tag push already publishes.
+Follow *Releasing* in the README. Never run `npm run publish`, and never create or push a `v*` tag unless the user asks: the tag publishes publicly and cannot be undone.

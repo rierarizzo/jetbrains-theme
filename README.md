@@ -53,7 +53,21 @@ npm run build    # regenerate themes/generated/ from themes/base and themes/part
 npm run package  # build and produce jb-theme-<version>.vsix
 ```
 
-Releases are published by CI: bump `version` in `package.json`, add the entry to `CHANGELOG.md`, commit, and push the `v*` tag (`git push --tags`). The tag publishes to the VS Code Marketplace and Open VSX; do not run `npm run publish` locally.
+### Releasing
+
+```bash
+# 1. Add the new version's entry to CHANGELOG.md, then commit it
+git commit -am "docs: changelog for 1.0.37"
+
+# 2. Bump package.json and create the tag (patch, minor or major)
+npm version patch -m "chore: release v%s"
+
+# 3. Push the commit and the tag: CI publishes to both marketplaces
+git push
+git push --tags
+```
+
+The tag must equal the `package.json` version (`v1.0.37`), or CI refuses to publish. A version already on the Marketplace cannot be replaced, so never reuse one. Do not run `npm run publish` locally: pushing the tag already publishes.
 
 ## License
 
