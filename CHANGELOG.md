@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [1.0.37] - 2026-11-19
+
+### Changed
+- Releases are built and published from GitHub Actions: pushing a `v*` tag publishes to the VS Code Marketplace and Open VSX.
+
 ## [1.0.36] - 2026-11-18
 
 ### Added
