@@ -42,7 +42,7 @@ With [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-la
 | Numbers | Cyan | `#2aacb8` |
 | Keywords | Orange | `#cf8e6d` |
 | Strings | Green | `#6aab73` |
-| Functions | Blue | `#55a6f2` |
+| Functions | Blue | `#56a8f5` |
 
 ## Development
 

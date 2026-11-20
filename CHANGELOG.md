@@ -10,6 +10,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Releases are built and published from GitHub Actions: pushing a `v*` tag publishes to the VS Code Marketplace and Open VSX.
+- Packaging builds the themes itself (`vscode:prepublish`), so a `.vsix` can no longer ship without them.
+
+### Fixed
+- The build fails when `themes/generated/` and `package.json` disagree, and stale generated themes are removed first.
+- Open VSX is published before the Marketplace, so a failed release can be re-run.
+- Removed a token color rule that VS Code ignores.
 
 ## [1.0.36] - 2026-11-18
 

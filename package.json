@@ -1,7 +1,7 @@
 {
 	"name": "jb-theme",
 	"displayName": "JetBrains Theme",
-	"description": "Un tema para VSCode inspirado en el estilo JetBrains.",
+	"description": "Dark themes for VS Code inspired by JetBrains IDEs.",
 	"publisher": "kenethriera",
 	"version": "1.0.37",
 	"icon": "images/jetbrains.png",
@@ -36,10 +36,9 @@
 	],
 	"scripts": {
 		"build": "node scripts/build-themes.js",
-		"prepackage": "npm run build",
-		"prepublish": "npm run build",
-		"package": "vsce package",
-		"publish": "vsce publish"
+		"vscode:prepublish": "npm run build",
+		"package": "npx --yes @vscode/vsce@4 package",
+		"publish": "npx --yes @vscode/vsce@4 publish"
 	},
 	"repository": {
 		"type": "git",

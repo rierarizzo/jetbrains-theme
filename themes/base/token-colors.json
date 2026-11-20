@@ -532,18 +532,5 @@
         "settings": {
             "foreground": "#56a8f5"
         }
-    },
-    {
-        "settings": {
-            "activeGuide": "#CACED6",
-            "background": "#1e1f22",
-            "caret": "#528BFF",
-            "findHighlight": "#FFE792",
-            "foreground": "#ABB2BF",
-            "guide": "#3C4049",
-            "invisibles": "#3C4049",
-            "lineHighlight": "#2C313A",
-            "selection": "#3E4451"
-        }
     }
 ]

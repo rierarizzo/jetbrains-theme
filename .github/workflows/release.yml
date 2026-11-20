@@ -10,6 +10,9 @@ permissions:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    env:
+      # Empty until the Open VSX namespace exists and its token is configured.
+      OVSX_PAT: ${{ secrets.OVSX_PAT }}
     steps:
       - uses: actions/checkout@v5
 
@@ -30,12 +33,13 @@ jobs:
 
       - run: npx --yes @vscode/vsce@4 package --out jb-theme.vsix
 
+      # Open VSX first: it accepts duplicates, so a re-run can retry the step that failed.
+      - name: Publish to Open VSX
+        if: env.OVSX_PAT != ''
+        run: npx --yes ovsx@1 publish jb-theme.vsix --skip-duplicate
+
+      # Last, because the Marketplace rejects an already published version.
       - name: Publish to Visual Studio Marketplace
         env:
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
         run: npx --yes @vscode/vsce@4 publish --packagePath jb-theme.vsix
-
-      - name: Publish to Open VSX
-        env:
-          OVSX_PAT: ${{ secrets.OVSX_PAT }}
-        run: npx --yes ovsx@1 publish jb-theme.vsix
