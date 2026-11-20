@@ -34,8 +34,10 @@ jobs:
       - run: npx --yes @vscode/vsce@4 package --out jb-theme.vsix
 
       # Open VSX first: it accepts duplicates, so a re-run can retry the step that failed.
+      # Not blocking yet: the publisher namespace does not exist there. Make it blocking once the extension is live.
       - name: Publish to Open VSX
         if: env.OVSX_PAT != ''
+        continue-on-error: true
         run: npx --yes ovsx@1 publish jb-theme.vsix --skip-duplicate
 
       # Last, because the Marketplace rejects an already published version.
