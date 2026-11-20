@@ -11,7 +11,7 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     env:
-      # Empty until the Open VSX namespace exists and its token is configured.
+      # Set via repository secret; the Open VSX step skips itself when absent.
       OVSX_PAT: ${{ secrets.OVSX_PAT }}
     steps:
       - uses: actions/checkout@v5
@@ -34,10 +34,8 @@ jobs:
       - run: npx --yes @vscode/vsce@4 package --out jb-theme.vsix
 
       # Open VSX first: it accepts duplicates, so a re-run can retry the step that failed.
-      # Not blocking yet: the publisher namespace does not exist there. Make it blocking once the extension is live.
       - name: Publish to Open VSX
         if: env.OVSX_PAT != ''
-        continue-on-error: true
         run: npx --yes ovsx@1 publish jb-theme.vsix --skip-duplicate
 
       # Last, because the Marketplace rejects an already published version.
