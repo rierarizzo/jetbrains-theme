@@ -12,11 +12,12 @@ A collection of dark themes for VS Code inspired by the UI and color schemes of 
 
 1. Open VS Code extensions (`Ctrl+Shift+X`).
 2. Search for **JetBrains Theme**.
-3. Install and select your preferred variant: **JetBrains Dark Theme** or **JetBrains Deep Dark Theme**.
+3. Install and select one of the three variants.
 
 ## Supported Languages
 
 Optimized highlighting for:
+
 - JavaScript, TypeScript, React, Angular, HTML, CSS, Astro
 - Java, Groovy, Python, Go, Rust, Bash
 - Dart, Flutter
@@ -35,13 +36,24 @@ With [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-la
 ## Colors
 
 | Scope | Color | Hex |
-|-------|-------|-----|
+| ------- | ------- | ----- |
 | Comments | Gray | `#7a7e85` |
 | Text | Light Gray | `#bcbec4` |
 | Numbers | Cyan | `#2aacb8` |
 | Keywords | Orange | `#cf8e6d` |
 | Strings | Green | `#6aab73` |
 | Functions | Blue | `#55a6f2` |
+
+## Development
+
+No dependencies are needed (Node 22+ for packaging):
+
+```bash
+npm run build    # regenerate themes/generated/ from themes/base and themes/partials
+npm run package  # build and produce jb-theme-<version>.vsix
+```
+
+Releases are published by CI: bump `version` in `package.json`, add the entry to `CHANGELOG.md`, commit, and push the `v*` tag (`git push --tags`). The tag publishes to the VS Code Marketplace and Open VSX; do not run `npm run publish` locally.
 
 ## License
 

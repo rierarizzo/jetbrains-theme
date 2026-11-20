@@ -1,26 +1,18 @@
-# Agent Guidelines for JetBrains Theme
+# Agent Guidelines
 
-## Before Publishing Changes
+## Layout
 
-1. Update version in `package.json`
-2. Update `CHANGELOG.md` with the new version and changes
-3. Commit with a clear message describing what was changed
+- `themes/base/token-colors.json` — TextMate scopes shared by every variant. Add language support here.
+- `themes/base/semantic-token-colors.json` — semantic tokens (`rust-analyzer`, TS, etc.), only apply when the user enables semantic highlighting.
+- `themes/partials/<variant>.json` — UI colors per variant (`colors`, `name`, `type`); `scripts/build-themes.js` merges them with both base files.
+- `themes/generated/` — build output, gitignored. Never edit or commit it.
 
-## Workflow
+A syntax change goes in `token-colors.json`; a UI color change goes in the affected partial.
 
-```bash
-# After making changes:
-npm version patch  # or minor/major depending on the change
-git add <changed-files>
-git commit -m "description"
-git push
-npm run package
-npm run publish
-git push --tags
-```
+## Commands
 
-## Files
+No dependencies: from a fresh clone, `npm run build` regenerates `themes/generated/` and `npm run package` builds that plus a `.vsix`. There are no tests or linters.
 
-- `package.json` - Version metadata
-- `CHANGELOG.md` - Change history
-- `themes/*.json` - Theme definition files
+## Releasing
+
+Build and release steps live in the README's Development section. Never run `npm run publish`: a `v*` tag push already publishes.
